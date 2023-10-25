@@ -40,7 +40,7 @@ print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
-            grab('https://www.youtube.com/c/MetrotvnewsOfficial/live')
+grab('https://www.youtube.com/c/MetrotvnewsOfficial/live')
             
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
