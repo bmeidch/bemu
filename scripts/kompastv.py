@@ -52,7 +52,7 @@ with open('../kompastv.txt') as f:
             tvg_logo = line[2].strip()
             tvg_id = line[3].strip()
         else:
-            grab(line)
+            grab('https://www.youtube.com/watch?v=1BTsX2WBg8Q')
             
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
