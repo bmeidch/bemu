@@ -8,6 +8,8 @@ cd $(dirname $0)/scripts/
 
 python3 tvone.py > ../lokal/tvone.m3u8
 
+python3 tvone1.py > ../lokal/tvone1.m3u8
+
 python3 r21.py > ../lokal/r21.m3u8
 
 python3 nettv.py > ../lokal/nettv.m3u8
