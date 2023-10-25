@@ -39,27 +39,9 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x tvone.sh
-          ./tvone.sh
+          chmod +x yt.sh
+          ./yt.sh
           
-          chmod +x r21.sh
-          ./r21.sh
-
-          chmod +x nettv.sh
-          ./nettv.sh
-
-          chmod +x metrotv.sh
-          ./metrotv.sh
-
-          chmod +x kompastvlr.sh
-          ./kompastvlr.sh
-
-          chmod +x kompastv.sh
-          ./kompastv.sh
-
-          chmod +x hope.sh
-          ./hope.sh
-
       - name: git add
         run: |
           git add -A
