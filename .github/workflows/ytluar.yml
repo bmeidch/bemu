@@ -39,13 +39,9 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x ABCNews.sh
-          ./ABCNews.sh
-          chmod +x bernama.sh
-          ./bernama.sh
-          chmod +x cna.sh
-          ./cna.sh
-
+          chmod +x ytl.sh
+          ./ytl.sh
+          
       - name: git add
         run: |
           git add -A
