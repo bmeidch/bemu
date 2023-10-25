@@ -7,6 +7,8 @@ python bernama.py > ../luar/bernama.m3u8
 sleep 3
 python cna.py > ../luar/cna.m3u8
 sleep 3
-python cna.py > ../luar/aljaen.m3u8
+python aljaen.py > ../luar/aljaen.m3u8
 sleep 3
-python cna.py > ../luar/aljaar.m3u8
+python aljaar.py > ../luar/aljaar.m3u8
+sleep 3
+python euronews.py > ../luar/euronews.m3u8
