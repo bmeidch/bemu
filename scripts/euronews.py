@@ -34,8 +34,8 @@ def grab(url):
     #hd = streams[-1].strip()
     #st = hd.find('http')
     #print(hd[st:].strip())
-    #print(f"{link[start : end]}")
-    print(streams)
+    print(f"{link[start : end]}")
+    
 
 print('#EXTM3U')
 print('#EXT-X-VERSION:3')
