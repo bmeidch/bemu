@@ -14,7 +14,5 @@ sleep 3
 python3 aljaen.py > ../luar/aljaen.m3u8
 sleep 3
 python3 aljaar.py > ../luar/aljaar.m3u8
-sleep 3
-python3 euronews.py > ../luar/euronews.m3u8
 
 echo m3u grabbed
