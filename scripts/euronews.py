@@ -40,7 +40,7 @@ print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
-grab('https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q/live')
+grab('https://livestream.zazerconer.workers.dev/channel/UCSrZ3UV4jOidv8ppoVuvW9Q.m3u8')
             
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
