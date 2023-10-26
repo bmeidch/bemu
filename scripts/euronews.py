@@ -37,9 +37,9 @@ def grab(url):
     #print(f"{link[start : end]}")
     
 
-#print('#EXTM3U')
-#print('#EXT-X-VERSION:3')
-#print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
+print('#EXTM3U')
+print('#EXT-X-VERSION:3')
+print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
 grab('https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q/live')
             
