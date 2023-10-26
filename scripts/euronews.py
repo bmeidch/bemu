@@ -31,16 +31,16 @@ def grab(url):
         else:
             tuner += 5
     streams = s.get(link[start:end]).text.split('#EXT')
-    hd = streams[-1].strip()
-    st = hd.find('http')
-    print(hd[st:].strip())
-    #print(f"{link[start : end]}")
+    #hd = streams[-1].strip()
+    #st = hd.find('http')
+    #print(hd[st:].strip())
+    print(f"{link[start : end]}")
 
 print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
-grab('https://livestream.zazerconer.workers.dev/channel/UCSrZ3UV4jOidv8ppoVuvW9Q.m3u8')
+grab('https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q/live')
             
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
