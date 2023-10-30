@@ -32,7 +32,7 @@ jobs:
       - name: commit
         run: |
           git add -A
-          git commit -m "OK"
+          git commit -m "SIP"
           git push
 
 
