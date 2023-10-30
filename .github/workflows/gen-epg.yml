@@ -22,16 +22,12 @@ jobs:
         run: |
           cd epg
           pwd
-          [ ! -d global ] && mkdir -v global/
-          [ ! -d local ] && mkdir -v local/
+          [ ! -d global ] && mkdir -v global/         
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
           gzip -9 guide.xml
-          mv -v guide.xml.gz global/
-          echo "Generating EPG for local playlist..."
-          python3 scripts/index.py guide.xml scripts/local/local.txt "action@github.com" "GitHub Action"
-          mv -v guide.xml local/
+          mv -v guide.xml.gz global/         
           cd ..
       - name: commit
         run: |
