@@ -5,10 +5,10 @@ Animax - [Channel 157].id,AnimaxAsia.sg
 ANTV - [Channel 115].id,ANTV.id
 Arirang - [Channel 351].id,ArirangWorld.kr
 AXN - [Channel 154].id,AXN
-AXN HD - [Channel 438].id,AXN
+AXN HD - [Channel 438].id,AXN.HD
 BabyTV - [Channel 40].id,BabyTV.uk
 BBC Earth - [Channel 200].id,BBCEarthAsia.uk
-BBC Earth HD - [Channel 461].id,BBCEarthAsia.uk
+BBC Earth HD - [Channel 461].id,BBCEarthAsia.HD.uk
 BBC World News - [Channel 332].id,BBCWorldNewsAsiaPacific.uk
 Berita Satu - [Channel 103].id,BeritaSatu.id
 Bloomberg - [Channel 338].id,BloombergTVAsia.hk
@@ -21,14 +21,14 @@ CGTN Documentary - [Channel 205].id,CGTNDocumentary.cn
 Channel News Asia - [Channel 330].id,CNA.sg
 CINEMACHI - [Channel 7].id,CINEMACHI.id
 CINEMACHI ACTION - [Channel 8].id,CINEMACHIACTION.id
-CINEMACHI ACTION HD - [Channel 402].id,CINEMACHIACTION.id
-CINEMACHI HD - [Channel 401].id,CINEMACHI.id
+CINEMACHI ACTION HD - [Channel 402].id,CINEMACHIACTION.HD.id
+CINEMACHI HD - [Channel 401].id,CINEMACHI.HD.id
 CINEMACHI KIDS - [Channel 9].id,CINEMACHIKIDS.id
-CINEMACHI KIDS HD - [Channel 403].id,CINEMACHIKIDS.id
+CINEMACHI KIDS HD - [Channel 403].id,CINEMACHIKIDS.HD.id
 CINEMACHI MAX - [Channel 10].id,CINEMACHIMAX.id
-CINEMACHI MAX HD - [Channel 404].id,CINEMACHIMAX.id
+CINEMACHI MAX HD - [Channel 404].id,CINEMACHIMAX.HD.id
 CINEMACHI XTRA - [Channel 6].id,CINEMACHIXTRA.id
-CINEMACHI XTRA HD - [Channel 405].id,CINEMACHIXTRA.id
+CINEMACHI XTRA HD - [Channel 405].id,CINEMACHIXTRA.HD.id
 CNBC - [Channel 337].id,CNBCAsia.sg
 Crime Investigation - [Channel 207].id,Crime.Investigation.id
 Dreamworks - [Channel 47].id,Dreamworks.id
@@ -43,17 +43,17 @@ Galaxy - [Channel 13].id,Galaxy.id
 Galaxy Premium - [Channel 12].id,GalaxyPremium.id
 Global Trekker - [Channel 201].id,GlobalTrekker.sg
 GTV - [Channel 81].id,GTV.id
-GTV HD - [Channel 431].id,GTV.id
+GTV HD - [Channel 431].id,GTV.HD.id
 History - [Channel 206].id,History
 HITS - [Channel 160].id,HITS.id
 HITS MOVIES - [Channel 11].id,HITSMovies.sg
-HITS MOVIES HD - [Channel 409].id,HITSMovies.sg
+HITS MOVIES HD - [Channel 409].id,HITSMovies.HD.sg
 IDX - [Channel 100].id,IDXChannel.id
-IDX HD - [Channel 436].id,IDXChannel.id
+IDX HD - [Channel 436].id,IDXChannel.HD.id
 IMC - [Channel 14].id,IMC.id
 Indosiar - [Channel 78].id,Indosiar.id
 iNews - [Channel 83].id,iNews.id
-iNews HD - [Channel 433].id,iNews.id
+iNews HD - [Channel 433].id,iNews.HD.id
 JAKTV - [Channel 113].id,JAKTV.id
 Kids TV - [Channel 46].id,KidsTV.id
 KIX - [Channel 161].id,KIX.id
@@ -62,7 +62,7 @@ LIFE - [Channel 91].id,LIFE.id
 Lifetime - [Channel 167].id,Lifetime
 Metro TV - [Channel 107].id,MetroTV.id
 MNCTV - [Channel 82].id,MNCTV.id
-MNCTV HD - [Channel 432].id,MNCTV.id
+MNCTV HD - [Channel 432].id,MNCTV.HD.id
 MTV 90's - [Channel 149].id,MTV90s
 MTV LIVE - [Channel 148].id,MTVLive.us
 Music TV - [Channel 111].id,MusicTV.id
@@ -71,43 +71,43 @@ My Cinema - [Channel 16].id,MyCinema.id
 My Cinema Asia - [Channel 17].id,MyCinemaAsia.id
 My Family - [Channel 15].id,MyFamily.id
 My Kidz - [Channel 50].id,MyKidz.id
-Nat Geo Wild HD - [Channel 463].id,NatGeoWild.id
+Nat Geo Wild HD - [Channel 463].id,NatGeoWild.HD.id
 National Geographic Channel - [Channel 202].id,NatGeoWild.id
-National Geographic Channel HD - [Channel 460].id,NationalGeographic.id
+National Geographic Channel HD - [Channel 460].id,NationalGeographic.HD.id
 National Geographic Wild - [Channel 204].id,NatGeoWild.id
 NET TV - [Channel 116].id,NET.TV.id
 NHK World - [Channel 355].id,NHKWorldJapan
 NHK World Premium - [Channel 354].id,NHKWorldPremium
-Nick Jr. HD - [Channel 472].id,NickJr.id
+Nick Jr. HD - [Channel 472].id,NickJr.HD.id
 Nickelodeon - [Channel 49].id,Nickelodeon.id
 Nickelodeon Jr - [Channel 37].id,NickJr.id
 OK TV - [Channel 95].id,OKTV.id
 Okezone TV - [Channel 90].id,Okezone.TV.id
 ONE - [Channel 164].id,ONE
-ONE HD - [Channel 445].id,ONE
+ONE HD - [Channel 445].id,ONE.HD
 PARAMOUNT - [Channel 163].id,ParamountNetwork.id
-PARAMOUNT HD - [Channel 441].id,ParamountNetwork.id
+PARAMOUNT HD - [Channel 441].id,ParamountNetwork.HD.id
 RCTI - [Channel 80].id,RCTI.id
-RCTI HD - [Channel 430].id,RCTI.id
+RCTI HD - [Channel 430].id,RCTI.HD.id
 Rock Action - [Channel 248].id,ROCKExtreme.sg
 Rock Entertainment - [Channel 240].id,ROCKEntertainment.sg
 SCTV - [Channel 89].id,SCTV.id
 SEA TODAY - [Channel 336].id,SEAToday.id
 Sindo News TV - [Channel 84].id,SindoNewsTV.id
-Sindo News TV HD - [Channel 434].id,SindoNewsTV.id
+Sindo News TV HD - [Channel 434].id,SindoNewsTV.HD.id
 Soccer Channel - [Channel 101].id,SoccerChannel.id
-Soccer Channel HD - [Channel 420].id,SoccerChannel.id
+Soccer Channel HD - [Channel 420].id,SoccerChannel.HD.id
 Sportstars - [Channel 102].id,Sportstars.id
 Sportstars 2 - [Channel 98].id,Sportstars2.id
-Sportstars 2 HD - [Channel 422].id,Sportstars.id
+Sportstars 2 HD - [Channel 422].id,Sportstars2.HD.id
 Sportstars 3 - [Channel 99].id,Sportstars3.id
-Sportstars 4 - [Channel 88].id,Sportstars 4.id
-Sportstars 4 HD - [Channel 424].id,Sportstars 4.id
-Sportstars HD - [Channel 421].id,Sportstars.id
+Sportstars 4 - [Channel 88].id,Sportstars4.id
+Sportstars 4 HD - [Channel 424].id,Sportstars4.HD.id
+Sportstars HD - [Channel 421].id,Sportstars.HD.id
 SPOTV - [Channel 307].id,SPOTV.kr
 SPOTV 2 - [Channel 308].id,SPOTV2.kr
-SPOTV 2 HD - [Channel 428].id,SPOTV2.kr
-SPOTV HD - [Channel 427].id,SPOTV.kr
+SPOTV 2 HD - [Channel 428].id,SPOTV2.HD.kr
+SPOTV HD - [Channel 427].id,SPOTV.HD.kr
 Tawaf TV - [Channel 105].id,TawafTV.id
 Thrill - [Channel 19].id,Thrill.hk
 Trans 7 - [Channel 110].id,Trans7.id
@@ -119,6 +119,6 @@ tvN Movies HD - [Channel 415].id,tvN.Movies.HD.id
 tvOne - [Channel 97].id,tvOne.id
 TVRI - [Channel 118].id,TVRI.id
 Vision Prime - [Channel 94].id,VisionPrime.id
-Vision Prime HD - [Channel 1].id,VisionPrime.id
+Vision Prime HD - [Channel 1].id,VisionPrime.HD.id
 Zee Bioskop - [Channel 23].id,ZeeBioskop.id
 Zoomoo - [Channel 39].id,Zoomoo.sg
