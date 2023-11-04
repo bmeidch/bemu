@@ -14,8 +14,7 @@ def grab(url):
         if '.m3u8' not in response:
             if windows:
                 print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
-                return
-            #os.system(f'wget {url} -O temp.txt')
+                return           
             os.system(f'curl "{url}" > temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
