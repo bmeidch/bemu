@@ -31,10 +31,11 @@ def grab(url):
         else:
             tuner += 5
     print(f"{link[start : end]}")
-
+print('#EXTM3U')
+print('#EXT-X-VERSION:3')
+print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 grab('https://www.youtube.com/@euronews/live')
-#s = requests.Session()
-            
+           
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
