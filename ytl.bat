@@ -10,3 +10,5 @@ sleep 3
 python aljaen.py > ../luar/aljaen.m3u8
 sleep 3
 python aljaar.py > ../luar/aljaar.m3u8
+sleep 3
+python rone.py > ../luar/rone.m3u8
