@@ -21,8 +21,7 @@ jobs:
       - name: generate
         run: |
           cd epg
-          pwd
-          [ ! -d global ] && mkdir -v global/         
+          pwd            
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
