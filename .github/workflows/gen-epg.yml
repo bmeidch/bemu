@@ -20,14 +20,13 @@ jobs:
           git config --global user.name "GitHub Action"
       - name: generate
         run: |
-          cd epg/scripts
+          cd epg
           pwd       
           [ ! -d guide.xml.gz ]  
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
-          python3 index.py guide.xml main/main.txt "action@github.com" "GitHub Action"
+          python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
           gzip -9 guide.xml
-          mv -v guide.xml.gz epg/
           cd ..
       - name: commit
         run: |
