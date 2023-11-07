@@ -26,7 +26,8 @@ jobs:
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 index.py guide.xml main/main.txt "action@github.com" "GitHub Action"
-          gzip -9 guide.xml              
+          gzip -9 guide.xml
+          mv -v guide.xml.gz epg/
           cd ..
       - name: commit
         run: |
