@@ -22,11 +22,10 @@ jobs:
         run: |
           cd epg
           pwd       
-          [ ! -d guide.xml.gz ]  
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
-          gzip -9 guide.xml
+          gzip -9 -f guide.xml
           cd ..
       - name: commit
         run: |
