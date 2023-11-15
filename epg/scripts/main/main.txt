@@ -1,12 +1,3 @@
-i.mjh.nz.xml
-https://i.mjh.nz/all/epg.xml
-
-PlutoTV.xml
-https://i.mjh.nz/PlutoTV/all.xml
-
-SamsungTVPlus.xml
-https://i.mjh.nz/SamsungTVPlus/all.xml
-
 francepremium.xml
 https://www.bevy.be/bevyfiles/francepremium.xml
 
