@@ -1,4 +1,4 @@
-mjh.xml
+i.mjh.nz.xml
 https://i.mjh.nz/all/epg.xml
 
 francepremium.xml
@@ -7,8 +7,17 @@ https://www.bevy.be/bevyfiles/francepremium.xml
 germanypremium.xml
 https://www.bevy.be/bevyfiles/germanypremium.xml
 
-epg.xml
+2811.xml
 https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml
+
+malaysia.xml
+https://www.bevy.be/bevyfiles/malaysia.xml
+
+malaysiapremium1.xml
+https://www.bevy.be/bevyfiles/malaysiapremium1.xml
+
+malaysiapremium2.xml
+https://www.bevy.be/bevyfiles/malaysiapremium2.xml
 
 netherlands.xml
 https://www.bevy.be/bevyfiles/netherlands.xml
