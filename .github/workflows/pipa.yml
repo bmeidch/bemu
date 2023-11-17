@@ -51,11 +51,11 @@ jobs:
           sleep 3
           mkdir tmp
           wget -U okhttp/1.2 -qP tmp https://raw.githubusercontent.com/jasaunlockstb/jasaunlockstb.github.io/main/scripts/error.py
-          python3 tmp/error.py -c 205  -n ok seeme/flyfish.m3u8
+          python3 tmp/error.py -c 205 -n indosiar seeme/flyfish.m3u8
           sleep 3
-          python3 tmp/error.py -c 204  -n ok seeme/shiny.m3u8
+          python3 tmp/error.py -c 204 -n sctv seeme/shiny.m3u8
           sleep 3
-          python3 tmp/error.py -c 7946  -n ok seeme/ttv.m3u8
+          python3 tmp/error.py -c 7946 -n tv-tempo seeme/ttv.m3u8
           rm -rf tmp
       
       - name: git add
