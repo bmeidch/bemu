@@ -49,15 +49,7 @@ jobs:
           sleep 3
           python3 cepuk/semprong.py "https://www.youtube.com/@Reformed21TV/live" > seeme/r21.m3u8
           sleep 3
-          mkdir tmp
-          wget -U 'okhttp/1.2' -qP tmp https://playlist-coffee.my.id/github/vidio.py
-          python3 tmp/vidio.py -c 205 -n indosiar seeme/flyfish.m3u8
-          sleep 3
-          python3 tmp/vidio.py -c 204 -n sctv seeme/shiny.m3u8
-          sleep 3
-          python3 tmp/vidio.py -c 7946 -n tv-tempo seeme/ttv.m3u8
-          rm -rf tmp
-      
+         
       - name: git add
         run: |
           git add -A
