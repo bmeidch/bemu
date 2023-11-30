@@ -1,3 +1,6 @@
+canada.xml
+https://www.bevy.be/bevyfiles/canada.xml
+
 francepremium.xml
 https://www.bevy.be/bevyfiles/francepremium.xml
 
