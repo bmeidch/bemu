@@ -40,5 +40,11 @@ https://www.bevy.be/bevyfiles/indonesiapremium3.xml
 indonesiapremium4.xml
 https://www.bevy.be/bevyfiles/indonesiapremium4.xml
 
+unitedkingdom.xml
+https://www.bevy.be/bevyfiles/unitedkingdom.xml
+
+unitedkingdompremium1.xml
+https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+
 epgtvku.xml
 https://link.zozotv.xyz/epgtvku.xml
