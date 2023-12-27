@@ -1,18 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="initial-scale=1"><title>https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1703668695/ei/d5eLZYmzB_fCy_sP-JODIA/ip/20.84.127.20/id/ewvRK3w1mkI.3/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ==/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f6B2Q03OCNwLIRlUY1LkHzsaWTtMJH7T19m_6w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire,ei,ip,id,source,requiressl,xpc,hfr,playlist_duration,manifest_duration,maudio,spc,vprv,go,itag,playlist_type/sig/AJfQdSswRQIhANfMtRFiEk2fc28u9WZ6qd4NcP_f1VnIgcO_EL_nfGp1AiBn-HI4S6FHwHjVR2nr8YuyRseimIwg-mdjt41M1YuNjA==/file/index.m3u8</title></head>
-<body style="font-family: arial, sans-serif; background-color: #fff; color: #000; padding:20px; font-size:18px; overscroll-behavior:contain;" onload="e=document.getElementById('captcha');if(e){e.focus();} if(solveSimpleChallenge) {solveSimpleChallenge(,);}">
-<div style="max-width:400px;">
-<hr noshade size="1" style="color:#ccc; background-color:#ccc;"><br>
-<div style="font-size:13px;">
-Our systems have detected unusual traffic from your computer network.  Please try your request again later.  <a href="#" onclick="document.getElementById('infoDiv0').style.display='block';">Why did this happen?</a><br><br>
-<div id="infoDiv0" style="display:none; background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;">
-This page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the <a href="//www.google.com/policies/terms/">Terms of Service</a>. The block will expire shortly after those requests stop.<br><br>This traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests.  If you share your network connection, ask your administrator for help &mdash; a different computer using the same IP address may be responsible.  <a href="//support.google.com/websearch/answer/86640">Learn more</a><br><br>Sometimes you may see this page if you are using advanced terms that robots are known to use, or sending requests very quickly.
-</div><br>
-
-IP address: 20.84.127.20<br>Time: 2023-12-27T03:18:15Z<br>URL: https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1703668695/ei/d5eLZYmzB_fCy_sP-JODIA/ip/20.84.127.20/id/ewvRK3w1mkI.3/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ==/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f6B2Q03OCNwLIRlUY1LkHzsaWTtMJH7T19m_6w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire,ei,ip,id,source,requiressl,xpc,hfr,playlist_duration,manifest_duration,maudio,spc,vprv,go,itag,playlist_type/sig/AJfQdSswRQIhANfMtRFiEk2fc28u9WZ6qd4NcP_f1VnIgcO_EL_nfGp1AiBn-HI4S6FHwHjVR2nr8YuyRseimIwg-mdjt41M1YuNjA==/file/index.m3u8<br>
-</div>
-</div>
-</body>
-</html>
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,AVERAGE-BANDWIDTH=200000,BANDWIDTH=243053,RESOLUTION=640x480,NAME="NTSC/SECAM/PAL",FRAME-RATE=25.000,CODECS="avc1.64001e,mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://thefirefox12537.github.io/streams/nosignal/01.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,AVERAGE-BANDWIDTH=1000000,BANDWIDTH=1294369,RESOLUTION=1920x1080,NAME="FHD",FRAME-RATE=25.000,CODECS="avc1.640028,mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://thefirefox12537.github.io/streams/nosignal/02.m3u8
+#EXT-X-ENDLIST
 
