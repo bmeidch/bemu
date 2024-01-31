@@ -1,0 +1,13 @@
+ESPN,ESPN.nl
+ESPN 2,ESPN 2.nl
+ESPN 3,ESPN 3.nl
+ESPN 4,ESPN 4.nl
+Eurosport 1,Eurosport1.nl
+Eurosport 2,Eurosport2.nl
+Ziggo Sport,ZiggoSport.nl
+Ziggo Sport Docu,ZiggoSportDocu.nl
+Ziggo Sport Golf,ZiggoSportGolf.nl
+Ziggo Sport Racing,ZiggoSportRacing.nl
+Ziggo Sport Select,ZiggoSportSelect.nl
+Ziggo Sport Tennis,ZiggoSportTennis.nl
+Ziggo Sport Voetbal,ZiggoSportVoetbal.nl
