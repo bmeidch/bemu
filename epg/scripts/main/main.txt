@@ -28,6 +28,9 @@ https://www.bevy.be/bevyfiles/portugal.xml
 singaporepremium.xml
 https://www.bevy.be/bevyfiles/singaporepremium.xml
 
+spain.xml
+https://www.bevy.be/bevyfiles/spain.xml
+
 indonesia.xml
 https://www.bevy.be/bevyfiles/indonesia.xml
 
@@ -39,6 +42,9 @@ https://www.bevy.be/bevyfiles/indonesiapremium3.xml
 
 indonesiapremium4.xml
 https://www.bevy.be/bevyfiles/indonesiapremium4.xml
+
+italypremium.xml
+https://www.bevy.be/bevyfiles/italypremium.xml
 
 unitedkingdom.xml
 https://www.bevy.be/bevyfiles/unitedkingdom.xml
