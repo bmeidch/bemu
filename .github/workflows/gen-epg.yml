@@ -27,9 +27,9 @@ jobs:
           python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
           sleep 3
           python3 scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
-          gzip -9 -f local.xml
-          sleep 3
           gzip -9 -f guide.xml
+          sleep 3
+          gzip -9 -f local.xml
           cd ..
       - name: commit
         run: |
