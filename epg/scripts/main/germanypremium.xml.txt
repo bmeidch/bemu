@@ -1,0 +1,26 @@
+DAZN 1 DE,DAZN1.de
+DAZN 2 DE,DAZN2.de
+Edge Sport,EdgeSport.de
+Eurosport 1 DE,Eurosport1.de
+Eurosport 2 DE,Eurosport2.de
+Extreme Sports Channel,ExtremeSportsChannel.de
+Sky Bundesliga 1,SkyBundesliga1.de
+Sky Bundesliga 2,SkyBundesliga2.de
+Sky Bundesliga 3,SkyBundesliga3.de
+Sky Bundesliga 4,SkyBundesliga4.de
+Sky Bundesliga 5,SkyBundesliga5.de
+Sky Bundesliga 6,SkyBundesliga6.de
+Sky Bundesliga 7,SkyBundesliga7.de
+Sky News,SkyNews.de
+Sky Sport 1 DE,SkySport1.de
+Sky Sport 10 DE,SkySport10.de
+Sky Sport 3 DE,SkySport3.de
+Sky Sport 4 DE,SkySport4.de
+Sky Sport 5 DE,SkySport5.de
+Sky Sport 6 DE,SkySport6.de
+Sky Sport 7 DE,SkySport7.de
+Sky Sport 8 DE,SkySport8.de
+Sky Sport 9 DE,SkySport9.de
+Sky Sport Mix DE,SkySportMix.de
+Sky Sport News DE,SkySportNews.de
+Sky Sport Premier League DE,SkySportPremierLeague.de

@@ -1,0 +1,5 @@
+The Sports Network,TSN.ca
+The Sports Network 2,TSN2.ca
+The Sports Network 3,TSN3.ca
+The Sports Network 4,TSN4.ca
+The Sports Network 5,TSN5.ca
