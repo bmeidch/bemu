@@ -1,0 +1,14 @@
+bebaepg.xml
+https://raw.githubusercontent.com/bebawy6/EPG/master/allEPG.xml
+
+allepg.xml
+https://i.mjh.nz/all/epg.xml
+
+PlutoTV.xml
+https://i.mjh.nz/PlutoTV/all.xml
+
+SamsungTVPlus.xml
+https://i.mjh.nz/SamsungTVPlus/all.xml
+
+AqFad2811epg.xml
+https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml
