@@ -28,6 +28,9 @@ https://www.bevy.be/bevyfiles/netherlandspremium.xml
 portugal.xml
 https://www.bevy.be/bevyfiles/portugal.xml
 
+romaniapremium.xm
+https://www.bevy.be/bevyfiles/romaniapremium.xml
+
 spain.xml
 https://www.bevy.be/bevyfiles/spain.xml
 
