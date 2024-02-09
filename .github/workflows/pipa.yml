@@ -52,9 +52,7 @@ jobs:
           python3 cepuk/semprong.py "https://www.youtube.com/@NickelodeonBahasa/live" > seeme/nb.m3u8
           sleep 3
           python3 cepuk/semprong.py "https://www.youtube.com/@dongengkita/live" > seeme/dk.m3u8
-          sleep 3
-          python3 cepuk/semprong.py "https://www.youtube.com/@LittleAngelIndonesia/live" > seeme/lai.m3u8
-          sleep 3
+          sleep 3         
           python3 cepuk/semprong.py "https://www.youtube.com/@BabyBusID/live" > seeme/bbid.m3u8
           sleep 3
           python3 cepuk/semprong.py "https://www.youtube.com/@cocobi_id/live" > seeme/ccbid.m3u8
