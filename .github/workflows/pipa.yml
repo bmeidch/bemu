@@ -25,13 +25,13 @@ jobs:
       - name: Update list
         run: |
           pwd
-          python3 cepuk/keker.py -U "https://www.youtube.com/@aljazeera/live" > seeme/aljaar.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@aljazeera/live" > seeme/aljaar.m3u8
           sleep 3
           python3 cepuk/keker.py -U "https://www.youtube.com/@aljazeeraenglish/live" > seeme/aljaen.m3u8
           sleep 3
-          python3 cepuk/keker.py -U "https://www.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live" > seeme/bernama.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live" > seeme/bernama.m3u8
           sleep 3
-          python3 cepuk/keker.py -U "https://www.youtube.com/c/ABCNews/live" > seeme/ABCNews.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/c/ABCNews/live" > seeme/ABCNews.m3u8
           sleep 3
           python3 cepuk/keker.py -U "https://www.youtube.com/channelnewsasia/live" > seeme/cna.m3u8
           sleep 3
@@ -47,7 +47,7 @@ jobs:
           sleep 3
           python3 cepuk/keker.py -U "https://www.youtube.com/@NetInsights/live" > seeme/nevi.m3u8
           sleep 3
-          python3 cepuk/keker.py -U "https://www.youtube.com/@Reformed21TV/live" > seeme/r21.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@Reformed21TV/live" > seeme/r21.m3u8
           sleep 3
           python3 cepuk/semprong.py "https://www.youtube.com/@NickelodeonBahasa/live" > seeme/nb.m3u8
           sleep 3
