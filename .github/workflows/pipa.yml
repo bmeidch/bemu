@@ -35,9 +35,9 @@ jobs:
           sleep 3
           python3 cepuk/keker.py -U "https://www.youtube.com/channelnewsasia/live" > seeme/cna.m3u8
           sleep 3
-          python3 cepuk/keker.py -U "https://www.youtube.com/c/HopeChannelIndonesia/live" > seeme/hope.m3u8
+          python3 cepuk/keker.py -U "https://www.youtube.com/@HopeChannelIndonesia/live" > seeme/hope.m3u8
           sleep 3
-          python3 cepuk/keker.py -U "https://www.youtube.com/watch?v=BBzdSRt-zSQ" > seeme/kompi.m3u8
+          python3 cepuk/keker.py -U "https://www.youtube.com/watch?v=DOOrIxw5xOw" > seeme/kompi.m3u8
           sleep 3
           python3 cepuk/keker.py -U "https://www.youtube.com/@kompastv/live" > seeme/kompil.m3u8
           sleep 3
