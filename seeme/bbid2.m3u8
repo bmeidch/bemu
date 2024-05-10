@@ -1,16 +1,12 @@
-#EXTM3U
-#EXT-X-VERSION:6
-#EXT-X-SERVER:LIBRETELEVISION
-#EXT-X-INDEPENDENT-SEGMENTS
-## Libretelevision offline stream mode
-#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=227733,RESOLUTION=640x480,NAME="PAL/SECAM",FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE,CODECS="avc1.64001e",URI="http://103.152.118.53:80/play/nosignal/avc1.64001E_iframe.m3u8?bandwidth=227733"
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=407411,RESOLUTION=640x480,NAME="PAL/SECAM",FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE,AUDIO="2",CODECS="avc1.64001e,mp4a.40.2"
-http://103.152.118.53:80/play/nosignal/avc1.64001E_stream.m3u8?bandwidth=407411
-#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1326733,RESOLUTION=1920x1080,NAME="FHD",FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE,CODECS="avc1.640028",URI="http://103.152.118.53:80/play/nosignal/avc1.640028_iframe.m3u8?bandwidth=1326733"
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1518144,RESOLUTION=1920x1080,NAME="FHD",FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE,AUDIO="2",CODECS="avc1.640028,mp4a.40.2"
-http://103.152.118.53:80/play/nosignal/avc1.640028_stream.m3u8?bandwidth=1518144
-#EXT-X-MEDIA:GROUP-ID="2",LANGUAGE="und",NAME="Unknown",CHANNELS="2",BANDWIDTH=159678,AUDIO-SAMPLING-RATE=48000,DEFAULT=YES,AUTOSELECT=YES,TYPE=AUDIO,URI="http://103.152.118.53:80/play/nosignal/mp4a.40.2_stream.m3u8?bandwidth=159678"
-#EXT-X-STREAM-INF:PROGRAM-ID=2,BANDWIDTH=159678,AUDIO-SAMPLING-RATE=48000,LANGUAGE="und",NAME="Unknown",CLOSED-CAPTIONS=NONE,CHANNELS="2",CODECS="mp4a.40.2"
-http://103.152.118.53:80/play/nosignal/mp4a.40.2_stream.m3u8?bandwidth=159678
-#EXT-X-ENDLIST
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 403 (Forbidden)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>403.</b> <ins>That’s an error.</ins>
+  <p>Your client does not have permission to get URL <code>/api/manifest/hls_variant/expire/1715325613/ei/TXY9Zo71Hfym0_wPopyXMA/ip/40.67.142.104/id/HEn3PkPFGhQ.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ==/tx/51066118/txs/51066116,51066117,51066118,51066119,51066120,51066121/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire,ei,ip,id,source,requiressl,xpc,tx,txs,hfr,playlist_duration,manifest_duration,maudio,vprv,go,rqh,itag,playlist_type/sig/AJfQdSswRQIhAPnIfG59CSovaw44hCQqYfZJyNDeU4Atxa-Dt2GA8eIxAiBErGy9v8S2uykRCan1Ro2P6iUKG7XU5kBPNmwJldqQPA==/file/index.m3u8%22,%22serverAbrStreamingUrl%22:%22https://rr2---sn-mb.googlevideo.com/videoplayback?expire=1715325613%5Cu0026ei=TXY9Zo71Hfym0_wPopyXMA%5Cu0026ip=40.67.142.104%5Cu0026id=HEn3PkPFGhQ.1%5Cu0026source=yt_live_broadcast%5Cu0026requiressl=yes%5Cu0026xpc=EgVo2aDSNQ==%5Cu0026mh=sg%5Cu0026mm=44,29%5Cu0026mn=sn-mb,sn-p5qlsndd%5Cu0026ms=lva,rdu%5Cu0026mv=u%5Cu0026mvi=2%5Cu0026pl=23%5Cu0026spc=UWF9f9S2zOE_qfl66BIuR_w3sVwsC5CgEYf6NnYPkC0auzIuzsy6Ianl1T-3%5Cu0026live=1%5Cu0026hang=1%5Cu0026noclen=1%5Cu0026svpuc=1%5Cu0026ns=3bHdpDtsbphlzyxznXoWVpYQ%5Cu0026sabr=1%5Cu0026rqh=1%5Cu0026mt=1715303602%5Cu0026fvip=5%5Cu0026keepalive=yes%5Cu0026c=WEB%5Cu0026smc=1%5Cu0026n=l0g-G383HrHCyi%5Cu0026sparams=expire,ei,ip,id,source,requiressl,xpc,spc,live,hang,noclen,svpuc,ns,sabr,rqh%5Cu0026sig=AJfQdSswRQIhAJTme5GXLqcrZNv2z4dU6IKTpw5fkL4HeisCmrH2kr2RAiB4I9fY8BlwoXx43lUpguuiWJAlk_66ngCemzkDUaQQgg==%5Cu0026lsparams=mh,mm,mn,ms,mv,mvi,pl%5Cu0026lsig=AHWaYeowRgIhAOkqLtLHI9rsd8pgRvQDwPzCU5zRECbAvFsrmYPse2xKAiEA5UgHjDO-IyqBL0JQACCiPBq8_rNG542TNwlN6apc-Iw=</code> from this server.  <ins>That’s all we know.</ins>
 
