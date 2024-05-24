@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
-    pull_request:
+  pull_request:
     branches:
       - master
   workflow_dispatch:
