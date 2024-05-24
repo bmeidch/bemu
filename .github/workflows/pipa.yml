@@ -27,7 +27,7 @@ jobs:
           pwd
           python3 cepuk/semprong.py "https://www.youtube.com/@aljazeera/live" > seeme/aljaar.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/@aljazeeraenglish/live" > seeme/aljaen.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@aljazeeraenglish/live" > seeme/aljaen.m3u8
           sleep 5
           python3 cepuk/semprong.py "https://www.youtube.com/@aljazeeraenglish/live" > seeme/aljaens.m3u8
           sleep 5
@@ -35,19 +35,19 @@ jobs:
           sleep 5
           python3 cepuk/semprong.py "https://www.youtube.com/c/ABCNews/live" > seeme/ABCNews.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/channelnewsasia/live" > seeme/cna.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/channelnewsasia/live" > seeme/cna.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/@HopeChannelIndonesia/live" > seeme/hope.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@HopeChannelIndonesia/live" > seeme/hope.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/watch?v=DOOrIxw5xOw" > seeme/kompi.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/watch?v=DOOrIxw5xOw" > seeme/kompi.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/@kompastv/live" > seeme/kompil.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@kompastv/live" > seeme/kompil.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/c/MetrotvnewsOfficial/live" > seeme/mevi.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/c/MetrotvnewsOfficial/live" > seeme/mevi.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/c/tvonenews/live" > seeme/viwan.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/c/tvonenews/live" > seeme/viwan.m3u8
           sleep 5
-          python3 cepuk/keker.py -U "https://www.youtube.com/@NetInsights/live" > seeme/nevi.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@NetInsights/live" > seeme/nevi.m3u8
           sleep 5
           python3 cepuk/semprong.py "https://www.youtube.com/@Reformed21TV/live" > seeme/r21.m3u8
           sleep 5
@@ -69,21 +69,21 @@ jobs:
           sleep 5    
           python3 cepuk/semprong.py "https://www.youtube.com/@Bebefinn/live" > seeme/bbfen.m3u8
           sleep 5    
-          python3 cepuk/keker.py -U "https://www.youtube.com/@TayoBahasaIndonesia/live" > seeme/tid2.m3u8
+          python3 cepuk/semprong.py -U "https://www.youtube.com/@TayoBahasaIndonesia/live" > seeme/tid2.m3u8
           sleep 5
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@cocobi_id/live" > seeme/cocobiid.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@cocobi_id/live" > seeme/cocobiid.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@BabyBusID/live" > seeme/bbid2.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@BabyBusID/live" > seeme/bbid2.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@LittleAngelIndonesia/live" > seeme/lain.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@LittleAngelIndonesia/live" > seeme/lain.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@BabyBus/live" > seeme/bben2.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@BabyBus/live" > seeme/bben2.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@Bebefinn/live" > seeme/bbfen2.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@Bebefinn/live" > seeme/bbfen2.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@liputan6_news/live" > seeme/l6_news.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@liputan6_news/live" > seeme/l6_news.m3u8
           sleep 5        
-          python3 cepuk/keker.py -U  "https://www.youtube.com/@Bebefinn/live" > seeme/bbfen2.m3u8
+          python3 cepuk/semprong.py -U  "https://www.youtube.com/@Bebefinn/live" > seeme/bbfen2.m3u8
           sleep 5        
 
       - name: git add
