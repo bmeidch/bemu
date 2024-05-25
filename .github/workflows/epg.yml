@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
+    pull_request:
+      branches:
+        - master
+
+  workflow_dispatch:
+
 jobs:
   Update-EPG:
     runs-on: ubuntu-latest
