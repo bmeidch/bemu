@@ -4,7 +4,7 @@ cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install
 
 # ID EPG
 
-npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aio.xml --days=7 --maxConnections=10 --gzip=true
+npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aio.xml --days=7 --maxConnections=10 --gzip
 
 # IDHM EPG
 
