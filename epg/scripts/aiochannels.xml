@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="entertainment.ie" lang="en" xmltv_id="PremierSports1.ie" site_id="premier-sports-1">Premier Sports 1</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="PremierSports2.ie" site_id="premier-sports-2">Premier Sports 2</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsArena.uk" site_id="sky-sports-arena-hd">Sky Sports Arena HD</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsCricket.uk" site_id="sky-sports-cricket">Sky Sports Cricket</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsF1.uk" site_id="sky-sports-f1">Sky Sports F1</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsFootball.uk" site_id="sky-sports-football">Sky Sports Football</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsGolf.uk" site_id="sky-sports-golf">Sky Sports Golf</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="sky-sports-main-event">Sky Sports Main Event</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsMix.uk" site_id="sky-sports-mix">Sky Sports Mix</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsNFL.uk" site_id="sky-sports-nfl">Sky Sports NFL</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="sky-sports-premier-league-roi">Sky Sports Premier League ROI</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="PremierSport1.sk" site_id="Premier+Sport+1">Premier Sport 1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="PremierSport2.sk" site_id="Premier+Sport+2">Premier Sport 2</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport1.cz" site_id="Nova+Sport+1">Nova Sport 1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport2.cz" site_id="Nova+Sport+2">Nova Sport 2</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport3.cz" site_id="Nova+Sport+3">Nova Sport 3</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport4.cz" site_id="Nova+Sport+4">Nova Sport 4</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport1.cz" site_id="Sport1">Sport1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport1.hu" site_id="Sport1+%28hu%29">Sport1 (hu)</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport2.cz" site_id="Sport2">Sport2</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport2.hu" site_id="Sport2+%28hu%29">Sport2 (hu)</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport5.cz" site_id="Sport+5">Sport 5</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport.sk" site_id="RTVS+%8Aport">RTVS port</channel>
+  <channel site="allente.no" lang="no" xmltv_id="TV2Sport1.no" site_id="0199">TV2 Sport 1 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="TV2Sport2.no" site_id="0406">TV2 Sport 2 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="0361">TV3+ (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="TV2SportPremium.no" site_id="0197">TV2 Sport Premium HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="1047">V sport Premier League HD (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSport1.no" site_id="0365">V sport 1 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSport2.no" site_id="608">V sport 2 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSport3.no" site_id="609">V sport 3 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportGolf.se" site_id="0364">V sport golf HD (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportLive1.se" site_id="0255">V sport live 1 (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportLive2.se" site_id="0256">V sport live 2 (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportLive3.se" site_id="0257">V sport live 3 (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportLive4.se" site_id="0258">V sport live 4 (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportLive5.se" site_id="0259">V sport live 5 (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportPlus.no" site_id="0271">V sport+ HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="VSportUltraHD.se" site_id="418">V sport ultra HD (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="1048">V sport Premier League 1 HD (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="1049">V sport Premier League 2 HD (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="0198">TV2 Sport Premium 2 HD (N) (T)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NBCWest.us" site_id="17221">NBC (West)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="NBCEast.us" site_id="10991">NBC (East)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network (East)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network (West)</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV1.pt" site_id="137">Sport TV 1</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV2.pt" site_id="187">Sport TV 2</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV3.pt" site_id="188">Sport TV 3</channel>
@@ -20,7 +66,6 @@
   <channel site="nostv.pt" lang="en" xmltv_id="FightNetwork.ca" site_id="236">Fight Network</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.at" site_id="72">Fuel TV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="RT.ru" site_id="165">Russia Today</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="AlJazeera.qa" site_id="108">Al Jazeera</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="39">Sky News</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="26">CNN</channel>
   <channel site="meo.pt" lang="en" xmltv_id="TRTWorld.tr" site_id="TRTWHD">TRT World</channel>
@@ -203,16 +248,6 @@
   <channel site="visionplus.id" lang="en" xmltv_id="XingKongChina.cn" site_id="7432">Xing Kong TV</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="ZeeBioskop.id" site_id="2449">Zee Bioskop</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="ZooMoo.sg" site_id="62822">Zoomoo</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7004">Prambors On Air</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7055">TRAX</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7169">ELGANGGA</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7216">Geronimo</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7283">SWARA SEMARANG</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7284">GAJAHMADA</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="7619">MUSICA</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="8815">Metro Globe Network</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="9430">World Cup 1</channel>
-  <channel site="vidio.com" lang="id" xmltv_id="" site_id="9431">World Cup 2</channel>
   <channel site="vidio.com" lang="id" xmltv_id="beINSports1.id" site_id="6299">Bein 1</channel>
   <channel site="vidio.com" lang="id" xmltv_id="beINSports3.id" site_id="6317">Bein 3</channel>
   <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV1.id" site_id="6685">CTV 1</channel>
@@ -589,6 +624,77 @@
   <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
   <channel site="tv.post.lu" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="a3633f40-719f-11e9-a762-3be38d7f533c">SPORTDIGITAL FUSSBALL</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="194">SPORTDIGITAL FUSSBALL</channel>
+  <channel site="ziggogo.tv" lang="en" xmltv_id="" site_id="NL_900016_019441">ESPN</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN3.nl" site_id="NL_000109_019464">ESPN 3</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN4.nl" site_id="NL_000110_019562">ESPN 4</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN.nl" site_id="NL_000107_019441">ESPN</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSport.nl" site_id="NL_000014_019661">Ziggo Sport</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportDocu.nl" site_id="NL_000098_019255">Ziggo Sport Docu</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportGolf.nl" site_id="NL_000096_019382">Ziggo Sport Golf</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportRacing.nl" site_id="NL_000097_019370">Ziggo Sport Racing</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportSelect.nl" site_id="NL_000094_019321">Ziggo Sport Select</channel>
+  <channel site="ziggogo.tv" lang="en" xmltv_id="ZiggoSportTennis.nl" site_id="NL_000099_019256">Ziggo Sport Tennis</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSportVoetbal.nl" site_id="NL_000095_019371">Ziggo Sport Voetbal</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport.ee" site_id="go3-sport">GO3 Sport</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport2.ee" site_id="go3-sport-2">GO3 Sport 2</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport3.ee" site_id="go3-sport-3">GO3 Sport 3</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee" site_id="go3-sport-4">GO3 Sport 4</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports1.hk" site_id="631">Now Sports 1</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports2.hk" site_id="632">Now Sports 2</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports3.hk" site_id="633">Now Sports 3</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports4.hk" site_id="634">Now Sports 4</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports4K1.hk" site_id="611">Now Sports 4K 1</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports5.hk" site_id="635">Now Sports 5</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports6.hk" site_id="636">Now Sports 6</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSports7.hk" site_id="637">Now Sports 7</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPlus.hk" site_id="680">Now Sports Plus</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague1.hk" site_id="621">Now Sports Premier League 1</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague2.hk" site_id="622">Now Sports Premier League 2</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague3.hk" site_id="623">Now Sports Premier League 3</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague4.hk" site_id="624">Now Sports Premier League 4</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague5.hk" site_id="625">Now Sports Premier League 5</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague6.hk" site_id="626">Now Sports Premier League 6</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeagueTV.hk" site_id="620">Now Sports Premier League TV</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPrime.hk" site_id="630">Now Sports Prime</channel>  
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier1.sg" site_id="221">HubPremier 1</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier2.sg" site_id="222">Hub Premier 2 (HD)</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier3.sg" site_id="223">Hub Premier 3</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier4.sg" site_id="224">Hub Premier 4</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier5.sg" site_id="225">Hub Premier 5</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier6.sg" site_id="226">Hub Premier 6</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier7.sg" site_id="227">Hub Premier 7</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier8.sg" site_id="228">Hub Premier 8</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier9.sg" site_id="229">Hub Premier 9</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier10.sg" site_id="230">Hub Premier 10</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier11.sg" site_id="231">Hub Premier 11</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports1.sg" site_id="201">Hub Sports 1 HD</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports2.sg" site_id="202">Hub Sports 2 HD</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports3.sg" site_id="203">Hub Sports 3 HD</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports4.sg" site_id="204">Hub Sports 4 HD</channel>  
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11490">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11491">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11492">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11494">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11496">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#11497">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#445">Sky News</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="" site_id="DTH#617">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport4K.it" site_id="DTH#10013">Sky Sport 4K</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport8.it" site_id="DTH#11386">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport9.it" site_id="DTH#9046">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport10.it" site_id="DTH#8613">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport11.it" site_id="DTH#615">Sky Sport</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport24.it" site_id="DTH#929">Sky Sport24</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#7507">Sky Sport Arena</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportCalcio.it" site_id="DTH#9113">Sky Sport Calcio</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#9096">Sky Sport F1</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#10254">Sky Sport Golf</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMax.it" site_id="DTH#9103">Sky Sport Max</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#8434">Sky Sport MotoGP</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportNBA.it" site_id="DTH#8753">Sky Sport NBA</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#11237">Sky Sport Tennis</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#8714">Sky Sport Uno</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN.it" site_id="DTH#11402">ZONA DAZN</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySport24.it" site_id="83758380/sky-sport-24">SKY SPORT 24</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySportF1.it" site_id="83837049/sky-sport-f1">Sky Sport F1</channel>
