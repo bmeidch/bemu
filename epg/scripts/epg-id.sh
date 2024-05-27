@@ -2,6 +2,10 @@
 
 cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install
 
+# ID EPG
+
+npm run grab -- --channels=../epg/id/id.channels.xml --output=../epg/id/epg-id.xml --days=7 --maxConnections=10
+
 # IDHM EPG
 
 npm run grab -- --site=indihometv.com --output=../epg/id/id-idhm-id.xml --days=2 --maxConnections=10
@@ -25,10 +29,10 @@ npm run grab -- --site=dens.tv --output=../epg/id/id-ds-id.xml --days=7 --maxCon
 # Compress EPG xml files
 cd epg/id
 
-xz -k -f -9 id*.xml && gzip -k -f -9 id*.xml
+xz -k -f -9 ../epg/id/id*.xml && gzip -k -f -9 ../epg/id/id*.xml
 
 # Remove EPG xml files
 
-rm id*.xml
+rm ../epg/id/id*.xml
 
 exit 0
