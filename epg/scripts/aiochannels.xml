@@ -99,7 +99,6 @@
   <channel site="dens.tv" lang="id" xmltv_id="TRTWorld.tr" site_id="41">TRT World</channel>
   <channel site="dens.tv" lang="id" xmltv_id="TV5MondeAsia.fr" site_id="90">TV5MONDE ASIE</channel>
   <channel site="dens.tv" lang="id" xmltv_id="TV5MondeStyle.fr" site_id="37">TV5MONDE Style HD</channel>
-  <channel site="dens.tv" lang="id" xmltv_id="TVRINasional.id" site_id="17">TVRI</channel>
   <channel site="dens.tv" lang="id" xmltv_id="TVRISport.id" site_id="118">TVRI Sport</channel>
   <channel site="dens.tv" lang="id" xmltv_id="WION.in" site_id="79">WION</channel>
   <channel site="cubmu.com" lang="id" xmltv_id="ABCAustralia.au" site_id="4028c68574537fcd0174be3b835358d5">ABC Australia</channel>
@@ -243,7 +242,6 @@
   <channel site="visionplus.id" lang="en" xmltv_id="tvNMoviesAsia.hk" site_id="6553">tvN Movies</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="tvOne.id" site_id="8">TV One</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="tvOne.id" site_id="41846">TV One</channel>
-  <channel site="visionplus.id" lang="en" xmltv_id="TVRINasional.id" site_id="13">TVRI</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="VisionPrime.id" site_id="19881">Vision Prime</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="XingKongChina.cn" site_id="7432">Xing Kong TV</channel>
   <channel site="visionplus.id" lang="en" xmltv_id="ZeeBioskop.id" site_id="2449">Zee Bioskop</channel>
@@ -268,6 +266,7 @@
   <channel site="vidio.com" lang="id" xmltv_id="NBATV.us" site_id="6717">NBA TV</channel>
   <channel site="vidio.com" lang="id" xmltv_id="RANSEntertainment.id" site_id="8241">RANS Channel</channel>
   <channel site="vidio.com" lang="id" xmltv_id="Reformed21.id" site_id="6853">Reformed 21 TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="UChannel.id" site_id="6898">U-Channel TV</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="" site_id="antara">Antara</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="" site_id="flik">Flik</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="" site_id="ikonser">I-Konser</channel>
@@ -282,7 +281,6 @@
   <channel site="indihometv.com" lang="id" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="animalplanet">Animal Planet</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="AnimaxAsia.sg" site_id="animax">Animax</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="AniplusAsia.sg" site_id="aniplus">Aniplus</channel>
-  <channel site="indihometv.com" lang="id" xmltv_id="ANTV.id" site_id="antv">ANTV</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="ArirangTV.kr" site_id="arirang">Arirang</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="AsianFoodNetwork.sg" site_id="afc">Asian Food Network</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="ATV.id" site_id="atv">ATV</channel>
@@ -398,7 +396,6 @@
   <channel site="indihometv.com" lang="id" xmltv_id="tvNMoviesAsia.hk" site_id="tvnmovies">TVN Movies</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="tvOne.id" site_id="tvone">TV One</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="TVRINasional.id" site_id="tvri">TVRI</channel>
-  <channel site="indihometv.com" lang="id" xmltv_id="UChannel.id" site_id="uchannel">UChannel</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="UseePrime.id" site_id="useeprime">AllPlay Ent</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="WarnerTVAsia.us" site_id="warner">Warner</channel>
   <channel site="indihometv.com" lang="id" xmltv_id="ZeeBioskop.id" site_id="zbioskop">ZBioskop</channel>
