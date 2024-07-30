@@ -701,7 +701,9 @@
   <channel site="guida.tv" lang="it" xmltv_id="SkySportTennis.it" site_id="66487167/sky-sport-tennis">Sky Sport Tennis</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySportUno.it" site_id="83838085/sky-sport-uno">Sky Sport Uno</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Sportitalia.it" site_id="83807384/sport-italia">Sport Italia</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="MilanTV.it" site_id="77738486/milan-tv">Milan TV</channel>  
+  <channel site="guida.tv" lang="it" xmltv_id="MilanTV.it" site_id="77738486/milan-tv">Milan TV</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Eurosport1.it" site_id="698573/eurosport-italia">Eurosport Italia</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Eurosport2.it" site_id="69857350/eurosport-2-italia">Eurosport 2 Italia</channel>
   <channel site="tv.trueid.net" lang="en" xmltv_id="" site_id="true-tennis-hd">True Tennis</channel>
   <channel site="tv.trueid.net" lang="en" xmltv_id="TruePremierFootball1.th" site_id="truepremierfootballhd1">True Premier Football 1</channel>
   <channel site="tv.trueid.net" lang="en" xmltv_id="TruePremierFootball2.th" site_id="truepremierfootballhd2">True Premier Football 2</channel>
@@ -862,5 +864,11 @@
   <channel site="bein.com" lang="en" xmltv_id="beINSportsPremium2.qa" site_id="sports#11">11</channel>
   <channel site="bein.com" lang="en" xmltv_id="beINSportsPremium3.qa" site_id="sports#12">12</channel>
   <channel site="bein.com" lang="en" xmltv_id="beINSportsXtra1.qa" site_id="sports#13">13</channel>
-  <channel site="bein.com" lang="en" xmltv_id="beINSportsXtra2.qa" site_id="sports#14">14</channel>  
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsXtra2.qa" site_id="sports#14">14</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport1.de" site_id="167">Eurosport 1 D</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="Eurosport2.de" site_id="170">Eurosport 2 D</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="Eurosport1.ru" site_id="en#35">Eurosport</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="Eurosport2.ru" site_id="en#51">Eurosport 2</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.es" site_id="eurosport_1_espana">Eurosport 1 España</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.es" site_id="eurosport_2_espana">Eurosport 2 España</channel>
 </channels>
