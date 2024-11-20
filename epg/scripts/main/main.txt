@@ -7,6 +7,9 @@ https://www.bevy.be/bevyfiles/argentinapremium2.xml
 belgiumpremium.xml
 https://www.bevy.be/bevyfiles/belgiumpremium.xml
 
+sportspremium1.xml
+https://www.bevy.be/bevyfiles/sportspremium1.xml.txt
+
 canada.xml
 https://www.bevy.be/bevyfiles/canada.xml
 
