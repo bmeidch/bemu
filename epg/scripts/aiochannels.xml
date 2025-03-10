@@ -41,7 +41,7 @@
   <channel site="allente.no" lang="no" xmltv_id="VSportUltraHD.se" site_id="418">V sport ultra HD (T)</channel>
   <channel site="allente.no" lang="no" xmltv_id="" site_id="1048">V sport Premier League 1 HD (T)</channel>
   <channel site="allente.no" lang="no" xmltv_id="" site_id="1049">V sport Premier League 2 HD (T)</channel>
-  <channel site="allente.no" lang="no" xmltv_id="" site_id="0198">TV2 Sport Premium 2 HD (N) (T)</channel>
+  <channel site="allente.no" lang="no" xmltv_id="" site_id="0198">TV2 Sport Premium 2 HD (N) (T)</channel> 
   <channel site="tvtv.us" lang="en" xmltv_id="USANetworkEast.us" site_id="11207">USA Network East</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="USANetworkWest.us" site_id="11208">USA Network West</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV1.pt" site_id="137">Sport TV 1</channel>
@@ -609,17 +609,8 @@
   <channel site="programetv.ro" lang="ro" xmltv_id="PrimaSport1.ro" site_id="prima-sport-1">Prima Sport 1</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="PrimaSport2.ro" site_id="prima-sport-2">Prima Sport 2</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="PrimaSport3.ro" site_id="prima-sport-3">Prima Sport 3</channel>
-  <channel site="programetv.ro" lang="ro" xmltv_id="PrimaSport4.ro" site_id="prima-sport-4">Prima Sport 4</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySport1.de" site_id="sky-sport-hd-1">Sky Sport 1</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySport2.de" site_id="sky-sport-hd-2">Sky Sport 2</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySportAustria1.at" site_id="sky-sport-austria-hd">Sky Sport Austria 1</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySportBundesliga1.de" site_id="sky-bundesliga-hd-1">Sky Sport Bundesliga 1</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySportBundesliga2.de" site_id="sky-bundesliga-hd-2">Sky Sport Bundesliga 2</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySportBundesliga3.de" site_id="sky-bundesliga-hd-3">Sky Sport Bundesliga 3</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SkySportBundesliga4.de" site_id="sky-bundesliga-hd-4">Sky Sport Bundesliga 4</channel>
-  <channel site="hd-plus.de" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="sportdigital">Sportdigital Fussball</channel>
-  <channel site="tv.blue.ch" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="1554">SPORTDIGITAL FUSSBALL</channel>
-  <channel site="tv.post.lu" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="a3633f40-719f-11e9-a762-3be38d7f533c">SPORTDIGITAL FUSSBALL</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="PrimaSport4.ro" site_id="prima-sport-4">Prima Sport 4</channel> 
+  <channel site="tv.magenta.at" lang="de" xmltv_id="SportdigitalFUSSBALLHD.de" site_id="206967336053">SPORTDIGITAL FUSSBALL HD</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="194">SPORTDIGITAL FUSSBALL</channel>
   <channel site="ziggogo.tv" lang="en" xmltv_id="" site_id="NL_900016_019441">ESPN</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
