@@ -10,6 +10,20 @@
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="Sport2.hu" site_id="Sport2+%28hu%29">Sport2 (hu)</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="Sport5.cz" site_id="Sport+5">Sport 5</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="Sport.sk" site_id="RTVS+%8Aport">RTVS port</channel>
+  <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport1.cz" site_id="10080">Nova Sport 1 HD</channel>
+  <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport2.cz" site_id="10081">Nova Sport 2 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Sport1.cz" site_id="10074">Sport 1 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Sport2.cz" site_id="10075">Sport 2 HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="Sport.sk" site_id="10186">RTVS Sport HD</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport1.cz" site_id="Nova+Sport+1">Nova Sport 1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport2.cz" site_id="Nova+Sport+2">Nova Sport 2</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport3.cz" site_id="Nova+Sport+3">Nova Sport 3</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaSport4.cz" site_id="Nova+Sport+4">Nova Sport 4</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport1.cz" site_id="Sport1">Sport1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport1.hu" site_id="Sport1+%28hu%29">Sport1 (hu)</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport2.cz" site_id="Sport2">Sport2</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport2.hu" site_id="Sport2+%28hu%29">Sport2 (hu)</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Sport.sk" site_id="RTVS+%8Aport">RTVS port</channel>
   <channel site="allente.no" lang="no" xmltv_id="TV2Sport1.no" site_id="0199">TV2 Sport 1 HD (N) (T)</channel>
   <channel site="allente.no" lang="no" xmltv_id="TV2Sport2.no" site_id="0406">TV2 Sport 2 HD (N) (T)</channel>
   <channel site="allente.no" lang="no" xmltv_id="" site_id="0361">TV3+ (N) (T)</channel>
