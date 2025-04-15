@@ -1,23 +1,31 @@
-indonesia.xml
-https://www.bevy.be/bevyfiles/indonesia.xml
+indonesia1.xml
+https://www.open-epg.com/files/indonesia1.xml
 
-indonesiapremium1.xml
-https://www.bevy.be/bevyfiles/indonesiapremium1.xml
+indonesia2.xml
+https://www.open-epg.com/files/indonesia2.xml
 
-indonesiapremium3.xml
-https://www.bevy.be/bevyfiles/indonesiapremium3.xml
+indonesia3.xml
+https://www.open-epg.com/files/indonesia3.xml
 
-indonesiapremium4.xml
-https://www.bevy.be/bevyfiles/indonesiapremium4.xml
+indonesia4.xml
+https://www.open-epg.com/files/indonesia4.xml
 
-malaysia.xml
-https://www.bevy.be/bevyfiles/malaysia.xml
+indonesia5.xml
+https://www.open-epg.com/files/indonesia5.xml
 
-malaysiapremium1.xml
-https://www.bevy.be/bevyfiles/malaysiapremium1.xml
+malaysia1.xml
+https://www.open-epg.com/files/malaysia1.xml
 
-malaysiapremium2.xml
-https://www.bevy.be/bevyfiles/malaysiapremium2.xml
+malaysia2.xml
+https://www.open-epg.com/files/malaysia2.xml
 
-singaporepremium.xml
-https://www.bevy.be/bevyfiles/singaporepremium.xml
+singapore1.xml
+https://www.open-epg.com/files/singapore1.xml
+
+singapore2.xml
+https://www.open-epg.com/files/singapore2.xml
+
+singapore3.xml
+https://www.open-epg.com/files/singapore3.xml
+
+
