@@ -1,44 +1,56 @@
-argentinapremium.xml
-https://www.bevy.be/bevyfiles/argentinapremium.xml
+argentina2.xml
+https://www.open-epg.com/files/argentina2.xml
 
-argentinapremium2.xml
-https://www.bevy.be/bevyfiles/argentinapremium2.xml
+argentina3.xml
+https://www.open-epg.com/files/argentina3.xml
 
-belgiumpremium.xml
-https://www.bevy.be/bevyfiles/belgiumpremium.xml
+belgium1.xml
+https://www.open-epg.com/files/belgium1.xml
 
-sportspremium1.xml
-https://www.bevy.be/bevyfiles/sportspremium1.xml.txt
+sports1.xml
+https://www.open-epg.com/files/sports1.xml
 
-canada.xml
-https://www.bevy.be/bevyfiles/canada.xml
+sports2.xml
+https://www.open-epg.com/files/sports2.xml
 
-francepremium.xml
-https://www.bevy.be/bevyfiles/francepremium.xml
+sports3.xml
+https://www.open-epg.com/files/sports3.xml
 
-germanypremium.xml
-https://www.bevy.be/bevyfiles/germanypremium.xml
+sports4.xml
+https://www.open-epg.com/files/sports4.xml
 
-italypremium.xml
-https://www.bevy.be/bevyfiles/italypremium.xml
+canada1.xml
+https://www.open-epg.com/files/canada1.xml
 
-netherlands.xml
-https://www.bevy.be/bevyfiles/netherlands.xml
+france2.xml
+https://www.open-epg.com/files/france2.xml
 
-netherlandspremium.xml
-https://www.bevy.be/bevyfiles/netherlandspremium.xml
+germany2.xml
+https://www.open-epg.com/files/germany2.xml
 
-portugal.xml
-https://www.bevy.be/bevyfiles/portugal.xml
+italy2.xml
+https://www.open-epg.com/files/italy2.xml
 
-romaniapremium.xml
-https://www.bevy.be/bevyfiles/romaniapremium.xml
+netherlands1.xml
+https://www.open-epg.com/files/netherlands1.xml
 
-spain.xml
-https://www.bevy.be/bevyfiles/spain.xml
+netherlands2.xml
+https://www.open-epg.com/files/netherlands2.xml
 
-unitedkingdom.xml
-https://www.bevy.be/bevyfiles/unitedkingdom.xml
+portugal1.xml
+https://www.open-epg.com/files/portugal1.xml
 
-unitedkingdompremium1.xml
-https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+portugal2.xml
+https://www.open-epg.com/files/portugal2.xml
+
+romania2.xml
+https://www.open-epg.com/files/romania2.xml
+
+spain1.xml
+https://www.open-epg.com/files/spain1.xml
+
+unitedkingdom1.xml
+https://www.open-epg.com/files/unitedkingdom1.xml
+
+unitedkingdom2.xml
+https://www.open-epg.com/files/unitedkingdom2.xml
