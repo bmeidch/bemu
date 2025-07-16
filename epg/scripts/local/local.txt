@@ -13,6 +13,9 @@ https://www.open-epg.com/files/indonesia4.xml
 indonesia5.xml
 https://www.open-epg.com/files/indonesia5.xml
 
+indonesia6.xml
+https://www.open-epg.com/files/indonesia6.xml
+
 malaysia1.xml
 https://www.open-epg.com/files/malaysia1.xml
 
