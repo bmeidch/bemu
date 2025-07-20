@@ -35,7 +35,7 @@ netherlands1.xml
 https://www.open-epg.com/files/netherlands1.xml
 
 netherlands2.xml
-https://www.ope-epg.com/files/netherlands2.xml
+https://www.open-epg.com/files/netherlands2.xml
 
 portugal1.xml
 https://www.open-epg.com/files/portugal1.xml
