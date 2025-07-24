@@ -48,3 +48,9 @@ https://www.open-epg.com/files/india3.xml
 
 india5.xml
 https://www.open-epg.com/files/india5.xml
+
+taiwan1.xml
+https://www.open-epg.com/files/taiwan1.xml
+
+taiwan2.xml
+https://www.open-epg.com/files/taiwan1.xml
