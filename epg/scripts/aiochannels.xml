@@ -106,7 +106,6 @@
   <channel site="dens.tv" lang="id" xmltv_id="tvNAsia.hk" site_id="59">tvN HD</channel>
   <channel site="dens.tv" lang="id" xmltv_id="tvNMoviesAsia.hk" site_id="58">tvN Movies HD</channel>
   <channel site="dens.tv" lang="id" xmltv_id="tvOne.id" site_id="7">tvOne</channel>
-  <channel site="dens.tv" lang="id" xmltv_id="TVRINasional.id" site_id="17">TVRI</channel>
   <channel site="dens.tv" lang="id" xmltv_id="TVRISport.id" site_id="118">TVRI Sport</channel>
   <channel site="dens.tv" lang="id" xmltv_id="WION.in" site_id="79">WION</channel>
   <channel site="dens.tv" lang="id" xmltv_id="WSport.za" site_id="123">W-Sport</channel>
@@ -311,7 +310,6 @@
   <channel site="visionplus.id" lang="id" xmltv_id="tvNAsia.hk" site_id="00000000000000000073">TVN</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="tvNMoviesAsia.hk" site_id="00000000000000000046">TVN Movies</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="tvOne.id" site_id="00000000000000000012">TVOne</channel>
-  <channel site="visionplus.id" lang="id" xmltv_id="TVRINasional.id" site_id="00000000000000000016">TVRI</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="VisionPrime.id" site_id="00000000000000000087">Vision Prime</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="" site_id="00000000000000001010">V+ LIVE 2</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="" site_id="00000000000000001012">V+ LIVE 3</channel>
