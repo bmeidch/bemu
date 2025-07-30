@@ -320,6 +320,10 @@
   <channel site="visionplus.id" lang="id" xmltv_id="XingKongChina.cn" site_id="00000000000000000158">Xing kong TV</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="ZeeBioskop.id" site_id="00000000000000000047">Zee Bioskop</channel>
   <channel site="visionplus.id" lang="id" xmltv_id="ZooMoo.sg" site_id="00000000000000000063">Zoo Moo</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="Sportstars3.id" site_id="99">Sportstars 3</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="" site_id="423">sportstars 3 HD</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="Sportstars4.id" site_id="88">Sportstars 4</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="" site_id="424">Sportstars 4 HD</channel>
   <channel site="vidio.com" lang="id" xmltv_id="ABCAustralia.au" site_id="7150">ABC Australia</channel>
   <channel site="vidio.com" lang="id" xmltv_id="AfricanewsEnglish.fr" site_id="12784">AFRICANEWS TV</channel>
   <channel site="vidio.com" lang="id" xmltv_id="AjwaTV.id" site_id="7464">Ajwa TV</channel>
