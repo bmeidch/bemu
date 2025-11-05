@@ -1249,8 +1249,6 @@
   <channel site="teliatv.ee" lang="en" xmltv_id="Eurosport2.ru" site_id="en#51">Eurosport 2</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.es" site_id="eurosport_1_espana">Eurosport 1 España</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.es" site_id="eurosport_2_espana">Eurosport 2 España</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBAneka.bn" site_id="Aneka">RTB Aneka</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBPerdana.bn" site_id="Perdana">RTB Perdana</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBSukmaindera.bn" site_id="Sukmaindera">RTB Sukmaindera</channel>
 </channels>
+
 
