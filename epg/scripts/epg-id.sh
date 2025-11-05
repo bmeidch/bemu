@@ -4,7 +4,7 @@ cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install --legacy-peer-deps
 
 # ID EPG
 
-# npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aioepg.xml --days=2 --maxConnections=10
+npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aioepg.xml --days=2 --maxConnections=10
 
 # IDHM EPG
 
