@@ -12,7 +12,7 @@
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport1.cz" site_id="10074">Sport 1 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport2.cz" site_id="10075">Sport 2 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport.sk" site_id="10186">RTVS Sport HD</channel>
-    <channel site="novasports.gr" lang="el" xmltv_id="Eurosport1.fr@Greece" site_id="Eurosport 1 HD">Eurosport 1 HD</channel>
+  <channel site="novasports.gr" lang="el" xmltv_id="Eurosport1.fr@Greece" site_id="Eurosport 1 HD">Eurosport 1 HD</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Eurosport2.fr@Greece" site_id="Eurosport 2 HD">Eurosport 2 HD</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Novasports1.gr" site_id="Novasports1HD">Novasports1HD</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Novasports2.gr" site_id="Novasports2HD">Novasports2HD</channel>
@@ -1631,4 +1631,5 @@
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport1.fr@Spain" site_id="eurosport_1_espana">Eurosport 1 España</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Eurosport2.fr@Spain" site_id="eurosport_2_espana">Eurosport 2 España</channel>
 </channels>
+
 
