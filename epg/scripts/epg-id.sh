@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install 22
+cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install -g npm@latest
 
 # ID EPG
 
