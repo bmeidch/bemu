@@ -737,10 +737,7 @@
   <channel site="playtv.unifi.com.my" lang="my" xmltv_id="TV3.my" site_id="20000011">TV3</channel>
   <channel site="playtv.unifi.com.my" lang="my" xmltv_id="TV9.my" site_id="20000020">TV9</channel>
   <channel site="playtv.unifi.com.my" lang="my" xmltv_id="TVAlhijrah.my" site_id="20000014">TV AlHijrah HD</channel>
-  <channel site="playtv.unifi.com.my" lang="my" xmltv_id="UnifiSports1.my" site_id="54185493">unifi Sports 1</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBAneka.bn" site_id="Aneka">RTB Aneka</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBPerdana.bn" site_id="Perdana">RTB Perdana</channel>
-  <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBSukmaindera.bn" site_id="Sukmaindera">RTB Sukmaindera</channel>
+  <channel site="playtv.unifi.com.my" lang="my" xmltv_id="UnifiSports1.my" site_id="54185493">unifi Sports 1</channel> 
   <channel site="rtmklik.rtm.gov.my" lang="ms" xmltv_id="" site_id="10">Dewan Negara</channel>
   <channel site="rtmklik.rtm.gov.my" lang="ms" xmltv_id="" site_id="9">Dewan Rakyat</channel>
   <channel site="rtmklik.rtm.gov.my" lang="ms" xmltv_id="BeritaRTM.my" site_id="7">Berita RTM</channel>
@@ -1256,3 +1253,4 @@
   <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBPerdana.bn" site_id="Perdana">RTB Perdana</channel>
   <channel site="rtb.gov.bn" lang="ms" xmltv_id="RTBSukmaindera.bn" site_id="Sukmaindera">RTB Sukmaindera</channel>
 </channels>
+
