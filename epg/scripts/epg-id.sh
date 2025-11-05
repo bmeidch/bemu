@@ -4,7 +4,7 @@ cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install
 
 # ID EPG
 
-npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aioepg.xml --days=2 --maxConnections=10
+# npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aioepg.xml --days=2 --maxConnections=10
 
 # IDHM EPG
 
@@ -26,9 +26,9 @@ npm run grab -- --site=cubmu.com --output=../epg/id-cm-id.xml --days=2 --maxConn
 
 npm run grab -- --site=dens.tv --output=../epg/id-ds-id.xml --days=2 --maxConnections=10
 
-# TIVIE EPG
+# MNCVISION EPG
 
-npm run grab -- --site=tivie.id --output=../epg/id-tivie-id.xml --days=2 --maxConnections=10
+npm run grab -- --site=mncvision.id --output=../epg/id-mncvision-id.xml --days=2 --maxConnections=10
 
 # Compress EPG xml files
 cd ../epg/
