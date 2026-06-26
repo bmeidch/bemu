@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
   <channel site="mncvision.id" site_id="90" lang="id" xmltv_id="">Hanacaraka TV</channel>
   <channel site="mncvision.id" site_id="350" lang="id" xmltv_id="ABCAustralia.au@SD">ABC Australia</channel>
   <channel site="mncvision.id" site_id="331" lang="id" xmltv_id="AlJazeera.qa@English">Al Jazeera English</channel>
@@ -105,3 +107,4 @@
   <channel site="mncvision.id" site_id="94" lang="id" xmltv_id="VisionPrime.id@SD">Vision Prime</channel>
   <channel site="mncvision.id" site_id="23" lang="id" xmltv_id="ZeeBioskop.id@SD">Zee Bioskop</channel>
   <channel site="mncvision.id" site_id="39" lang="id" xmltv_id="ZooMoo.sg@SD">Zoomoo</channel>
+  </channels>
