@@ -39,6 +39,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
+          if [ -f epg/requirements.txt ]; then
+            pip install -r epg/requirements.txt
+          else
+            pip install lxml requests
+          fi
+
       - name: Generate EPG
         working-directory: epg
         run: |
