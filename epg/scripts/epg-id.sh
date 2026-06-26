@@ -36,13 +36,17 @@ cd ../epg/
 # Compress EPG xml files
 
 #xz -k -f -9 id*.xml && gzip -k -f -9 aioepg.xml
+#gzip -k -f -9 ../epg/aioepg.xml
+#gzip -k -f -9 ../epg/id*.xml
 
-gzip -k -f -9 ../epg/aioepg.xml
-gzip -k -f -9 ../epg/id*.xml
+shopt -s nullglob
+
+for f in ../epg/*.xml; do
+    gzip -kf9 "$f"
+done
 
 # Remove EPG xml files
 
-rm ../epg/id*.xml
-rm ../epg/aioepg.xml
+rm -f ../epg/*.xml
 
 exit 0
