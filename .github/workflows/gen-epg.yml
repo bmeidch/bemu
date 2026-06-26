@@ -2,73 +2,53 @@ name: Generate EPG
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: '0 */6 * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: epg
-  cancel-in-progress: true
+  pull_request:
+    branches:
+      - master
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: epg/requirements.txt
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install lxml
 
       - name: Configure Git
         run: |
-          git config user.name "GitHub Action"
           git config user.email "action@github.com"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-
-          if [ -f epg/requirements.txt ]; then
-            pip install -r epg/requirements.txt
-          else
-            pip install lxml requests
-          fi
+          git config user.name "GitHub Action"
 
       - name: Generate EPG
         working-directory: epg
         run: |
-          set -e
+          python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action" &
+          python3 scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action" &
+          python3 scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action" &
+          wait
 
-          python scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
-          python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
-          python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
-
-          gzip -9 -f guide.xml
-          gzip -9 -f local.xml
-          gzip -9 -f nze.xml
+          gzip -9 -f guide.xml &
+          gzip -9 -f local.xml &
+          gzip -9 -f nze.xml &
+          wait
 
       - name: Commit changes
         run: |
           git add -A
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes"
             exit 0
           fi
 
-          git commit -m "Update EPG $(date -u +'%Y-%m-%d %H:%M UTC')"
-
-      - name: Push changes
-        run: |
-          git push origin HEAD:${GITHUB_REF_NAME}
+          git commit -m "Update EPG"
+          git push
