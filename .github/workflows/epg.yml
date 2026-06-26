@@ -26,16 +26,16 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Checkout iptv-org/epg
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: iptv-org/epg
           path: iptv-org-epg
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -47,7 +47,7 @@ jobs:
           bash epg/scripts/epg-id.sh "${{ matrix.job }}"
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: epg-${{ matrix.job }}
           path: epg/*.gz
@@ -59,10 +59,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Download Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: artifacts
 
