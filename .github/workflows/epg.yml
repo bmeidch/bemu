@@ -1,33 +1,43 @@
 name: Update EPG
+
 on:
   schedule:
     - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  Update-EPG:
+  update-epg:
     runs-on: ubuntu-latest
+
     steps:
-    
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v5
-        
-      - name: checkout iptv-org/epg repo
+
+      - name: Checkout iptv-org/epg
         uses: actions/checkout@v5
         with:
-         repository: iptv-org/epg
-         path: iptv-org-epg
+          repository: iptv-org/epg
+          path: iptv-org-epg
 
-      - name: update epg
+      - name: Update EPG
         run: bash epg/scripts/epg-id.sh
 
-      - name: setup git config
+      - name: Configure Git
         run: |
-          git config user.name "🤖 robo-robo"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: commit
+      - name: Commit and Push
         run: |
-          git pull
-          cd epg && git add .
+          git add epg/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
           git commit -m "Update EPG"
           git push origin main
