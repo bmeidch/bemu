@@ -9,33 +9,66 @@ permissions:
   contents: write
 
 jobs:
-  update-epg:
+
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        epg:
+          - aio
+          - maxstream
+          - visionplus
+          - vidio
+          - cubmu
+          - dens
+          - mncvision
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
 
-      - name: Checkout iptv-org/epg
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           repository: iptv-org/epg
           path: iptv-org-epg
 
-      - name: Update EPG
-        run: bash epg/scripts/epg-id.sh
+      - name: Generate EPG
+        run: |
+          chmod +x epg/scripts/epg-id.sh
+          bash epg/scripts/epg-id.sh "${{ matrix.epg }}"
 
-      - name: Configure Git
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.epg }}
+          path: epg/*.gz
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: epg
+
+      - name: Move files
+        run: |
+          find epg -name "*.gz" -exec mv {} epg/ \;
+
+      - name: Git Config
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and Push
+      - name: Commit
         run: |
-          git add epg/
+          git add epg
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes."
             exit 0
           fi
 
