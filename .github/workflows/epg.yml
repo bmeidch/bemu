@@ -27,7 +27,7 @@ jobs:
 
       - name: commit
         run: |
-          git pull origin main
-          git add epg/
+          git pull
+          cd epg && git add .
           git commit -m "Update EPG"
           git push origin main
