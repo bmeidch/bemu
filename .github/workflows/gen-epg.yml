@@ -43,17 +43,23 @@ jobs:
         run: |
           set -e
 
+          echo "Generating guide.xml..."
           python scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
+
+          echo "Generating local.xml..."
           python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
+
+          echo "Generating nze.xml..."
           python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
 
+          echo "Compressing XML files..."
           gzip -9 -f guide.xml
           gzip -9 -f local.xml
           gzip -9 -f nze.xml
 
       - name: Commit and Push
         run: |
-          git add epg
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No changes detected."
@@ -61,4 +67,5 @@ jobs:
           fi
 
           git commit -m "Update EPG $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push origin HEAD:${{ github.ref_name }}
+
+          git push origin HEAD:${GITHUB_REF_NAME}
