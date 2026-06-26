@@ -28,7 +28,7 @@ npm run grab -- --site=dens.tv --output=../epg/id-ds-id.xml --days=2 --maxConnec
 
 # MNCVISION EPG
 
-npm run grab -- --site=mncvision.id --output=../epg/id-mncvision-id.xml --days=2 --maxConnections=10
+npm run grab -- --site=mncvision.id --output=../epg/id-mncvision-id.xml --days=1 --maxConnections=10
 
 # Compress EPG xml files
 cd ../epg/
