@@ -1,44 +1,64 @@
-name: Generate EPG every day
+name: Generate EPG every 12 hours
+
 on:
   schedule:
-    - cron: '00 00-12/6 * * *'
-  pull_request:
-    branches:
-      - master
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v5
-      - name: config
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure Git
         run: |
-          git pull
-          git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-      - name: generate
+          git config --global user.email "action@github.com"
+
+      - name: Install dependencies
         run: |
-          cd epg
-          pwd       
-          python3 -m pip install lxml
-          echo "Generating EPG for main playlist..."
-          python3 scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
-          sleep 3
-          python3 scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
-          sleep 3
-          python3 scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
+          python -m pip install --upgrade pip
+
+          if [ -f epg/requirements.txt ]; then
+            pip install -r epg/requirements.txt
+          else
+            pip install lxml
+          fi
+
+      - name: Generate EPG
+        working-directory: epg
+        run: |
+          set -e
+
+          python scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
+          python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
+          python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
+
           gzip -9 -f guide.xml
-          sleep 3
           gzip -9 -f local.xml
-          sleep 3
           gzip -9 -f nze.xml
-          cd ..
-      - name: commit
+
+      - name: Commit and Push
         run: |
-          git add -A
-          git commit -m "SIP"
-          git push
+          git add epg
 
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
 
+          git commit -m "Update EPG $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:${{ github.ref_name }}
