@@ -23,11 +23,36 @@
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="Sport1.cz" site_id="61">Sport 1</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="Sport2.cz" site_id="93">Sport 2</channel>
   <channel site="mujtvprogram.cz" lang="sk" xmltv_id="Sport.sk" site_id="928">RTVS Šport</channel>
-  <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport1.cz" site_id="10080">Nova Sport 1 HD</channel>
-  <channel site="horizon.tv" lang="cs" xmltv_id="NovaSport2.cz" site_id="10081">Nova Sport 2 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport1.cz" site_id="10074">Sport 1 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport2.cz" site_id="10075">Sport 2 HD</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Sport.sk" site_id="10186">RTVS Sport HD</channel>
+  <channel site="horizon.tv" site_id="10080" lang="cs" xmltv_id="NovaSport1.cz@SD">Nova Sport 1 HD</channel>
+  <channel site="horizon.tv" site_id="10081" lang="cs" xmltv_id="NovaSport2.cz@SD">Nova Sport 2 HD</channel>
+  <channel site="horizon.tv" site_id="10082" lang="cs" xmltv_id="CTSport.cz@SD">CT sport HD</channel>
+   <channel site="mujtvprogram.cz" site_id="18" lang="cs" xmltv_id="CTSport.cz@SD">ČT sport</channel>
+  <channel site="m.tv.sms.cz" site_id="Arena+Sport+1" lang="sk" xmltv_id="ArenaSport1.sk@SD">Arena Sport 1</channel>
+  <channel site="m.tv.sms.cz" site_id="Arena+Sport+2" lang="sk" xmltv_id="ArenaSport2.sk@SD">Arena Sport 2</channel>
+  <channel site="m.tv.sms.cz" site_id="%C8T4+Sport" lang="cs" xmltv_id="CTSport.cz@SD">T4 Sport</channel>
+  <channel site="mujtvprogram.cz" site_id="17" lang="cs" xmltv_id="NovaSport1.cz@SD">Nova Sport 1</channel>
+  <channel site="mujtvprogram.cz" site_id="466" lang="cs" xmltv_id="NovaSport2.cz@SD">Nova Sport 2</channel>
+  <channel site="mujtvprogram.cz" site_id="904" lang="cs" xmltv_id="NovaSport3.cz@SD">Nova Sport 3</channel>
+  <channel site="mujtvprogram.cz" site_id="905" lang="cs" xmltv_id="NovaSport4.cz@SD">Nova Sport 4</channel>
+  <channel site="mujtvprogram.cz" site_id="61" lang="cs" xmltv_id="Sport1.cz@SD">Sport 1</channel>
+  <channel site="mujtvprogram.cz" site_id="93" lang="cs" xmltv_id="Sport2.cz@SD">Sport 2</channel>
+  <channel site="mujtvprogram.cz" site_id="344" lang="sk" xmltv_id="ArenaSport1.sk@SD">Arena Sport 1</channel>
+  <channel site="mujtvprogram.cz" site_id="379" lang="sk" xmltv_id="ArenaSport2.sk@SD">Arena Sport 2</channel>
+  <channel site="tvpassport.com" site_id="nbc-wtwc-tallahassee-fl-hd/8552" lang="en" xmltv_id="WTWCTV401.us@HD">NBC (WTWC) Tallahassee, FL HD</channel>
+  <channel site="tvpassport.com" site_id="nbc-wtwc-tallahassee-fl/1347" lang="en" xmltv_id="WTWCTV401.us@HD">NBC (WTWC) Tallahassee, FL</channel>
+  <channel site="tvpassport.com" site_id="nbc-wgrz-buffalo-ny-hd/3582" lang="en" xmltv_id="WGRZ21.us@HD">NBC (WGRZ) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" site_id="nbc-wgrz-buffalo-ny/91" lang="en" xmltv_id="WGRZ21.us@HD">NBC (WGRZ) Buffalo, NY</channel>
+  <channel site="tvpassport.com" site_id="nbc-khq-spokane-wa-hd/6270" lang="en" xmltv_id="KHQDT1.us@SD">NBC (KHQ) Spokane, WA HD</channel>
+  <channel site="tvpassport.com" site_id="nbc-khq-spokane-wa/171" lang="en" xmltv_id="KHQDT1.us@SD">NBC (KHQ) Spokane, WA</channel>
+  <channel site="tvpassport.com" site_id="bek-sports-247-kndb2-bismarck-nd/30779" lang="en" xmltv_id="">BEK Sports 24/7 (KNDB2) Bismarck, ND</channel>
+  <channel site="tvpassport.com" site_id="bek-sports-247-kndm2-minot-nd/30780" lang="en" xmltv_id="">BEK Sports 24/7 (KNDM2) Minot, ND</channel>
+  <channel site="tvpassport.com" site_id="bek-sports-247/14544" lang="en" xmltv_id="">BEK Sports 24/7</channel>
+  <channel site="tvpassport.com" site_id="bek-sports-krdk-tv2-fargo-nd/18490" lang="en" xmltv_id="">BEK Sports (KRDK-TV2) Fargo, ND</channel>
+  <channel site="tvpassport.com" site_id="bek-sports/14545" lang="en" xmltv_id="">BEK Sports</channel>  
+  <channel site="tvpassport.com" site_id="kngf-dt/37427" lang="en" xmltv_id="">BEK Sports (KNGF-DT) Grand Forks, ND</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Eurosport1.fr@Greece" site_id="Eurosport 1 HD">Eurosport 1 HD</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Eurosport2.fr@Greece" site_id="Eurosport 2 HD">Eurosport 2 HD</channel>
   <channel site="novasports.gr" lang="el" xmltv_id="Novasports1.gr" site_id="Novasports1HD">Novasports1HD</channel>
