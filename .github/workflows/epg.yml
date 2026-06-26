@@ -2,11 +2,6 @@ name: Update EPG
 on:
   schedule:
     - cron: "0 */12 * * *"
-  pull_request:
-      branches:
-        - master
-
-  workflow_dispatch:
 
 jobs:
   Update-EPG:
@@ -23,16 +18,16 @@ jobs:
          path: iptv-org-epg
 
       - name: update epg
-        run: sh epg/scripts/epg-id.sh
+        run: bash epg/scripts/epg-id.sh
 
       - name: setup git config
         run: |
           git config user.name "🤖 robo-robo"
-          git config user.email "<>"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: commit
         run: |
-          git pull
-          cd epg && git add .
+          git pull origin main
+          git add epg/
           git commit -m "Update EPG"
           git push origin main
