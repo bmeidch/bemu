@@ -1,6 +1,10 @@
 #!/bin/bash
 
-cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install glob@latest --legacy-peer-deps
+cd /home/runner/work/bemu/bemu/iptv-org-epg && npm install
+
+# M3UPT EPG
+
+npm run grab --- --channels=../EPG/m3upt.channels.xml --output=../epg/epg-m3upt.xml --days=7 --maxConnections=20
 
 # ID EPG
 
@@ -35,11 +39,8 @@ cd ../epg/
 
 # Compress EPG xml files
 
-xz -k -f -9 epg*.xml && gzip -k -f -9 ../epg/aioepg.xml
-xz -k -f -9 epg*.xml && gzip -k -f -9 ../epg/id*.xml
-
-# gzip -k -f -9 ../epg/aioepg.xml
-# gzip -k -f -9 ../epg/id*.xml
+gzip -k -f -9 ../epg/aioepg.xml
+gzip -k -f -9 ../epg/id*.xml
 
 # Remove EPG xml files
 
