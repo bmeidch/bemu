@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="meuguia.tv" site_id="SP2" lang="pt" xmltv_id="SporTV2.br@SD">SporTV 2</channel>
+  <channel site="meuguia.tv" site_id="SP3" lang="pt" xmltv_id="SporTV3.br@SD">SporTV 3</channel>
+  <channel site="meuguia.tv" site_id="SPO" lang="pt" xmltv_id="SporTV.br@SD">SporTV</channel>
+  <channel site="mi.tv" site_id="br#sportv" lang="pt" xmltv_id="SporTV.br@SD">SporTV</channel>
+  <channel site="mi.tv" site_id="br#sportv2" lang="pt" xmltv_id="SporTV2.br@SD">SporTV2</channel>
+  <channel site="mi.tv" site_id="br#sportv2-hd" lang="pt" xmltv_id="">SporTV2 HD</channel>
+  <channel site="mi.tv" site_id="br#sportv3" lang="pt" xmltv_id="SporTV3.br@SD">SporTV3</channel>
+  <channel site="mi.tv" site_id="br#sportv3-hd" lang="pt" xmltv_id="">SporTV3 HD</channel>
+  <channel site="mi.tv" site_id="br#sportv-hd" lang="pt" xmltv_id="">SporTV HD</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="NovaSport1.cz" site_id="17">Nova Sport 1</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="NovaSport2.cz" site_id="466">Nova Sport 2</channel>
   <channel site="mujtvprogram.cz" lang="cs" xmltv_id="NovaSport3.cz" site_id="904">Nova Sport 3</channel>
