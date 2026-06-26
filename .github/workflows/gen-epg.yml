@@ -23,17 +23,9 @@ jobs:
           cd epg
           pwd       
           python3 -m pip install lxml
-          
-	  echo "Generating guide.xml..."
           python scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
-          
-	  echo "Generating local.xml..."
           python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
-          
-	  echo "Generating nze.xml..."
           python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
-         
-	  wait
 
       - name: Compress XML
         working-directory: epg
