@@ -8,7 +8,7 @@ npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/aioepg
 
 # IDHM EPG
 
-npm run grab -- --site=maxstream.tv --output=../epg/id-idhm-id.xml --days=2 --maxConnections=10
+npm run grab -- --site=maxstream.tv --output=../epg/id-mxs-id.xml --days=2 --maxConnections=10
 
 # VIS EPG
 
