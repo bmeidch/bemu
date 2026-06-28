@@ -23,8 +23,8 @@ jobs:
           cd epg
           pwd       
           python3 -m pip install lxml
-          python scripts/index.py guide.xml scripts/main/mainoe.txt "action@github.com" "GitHub Action"
-          python scripts/index.py guide.xml scripts/main/mainio.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guideoe.xml scripts/main/mainoe.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guideio.xml scripts/main/mainio.txt "action@github.com" "GitHub Action"
           python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
           python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
 
