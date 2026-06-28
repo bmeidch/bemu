@@ -20,8 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Dependencies
-        run: pip3 install -q lxml requests urllib3
+      - name: Install
+        run: pip3 install -q lxml
 
       - name: Generate ${{ matrix.file }}
         working-directory: epg
@@ -32,21 +32,19 @@ jobs:
 
           echo "::group::Generate ${{ matrix.file }}"
 
-          # Dijalankan dari folder 'epg'
-          # Result akan disimpan langsung di: epg/${{ matrix.file }}.xml
-          # Source dibaca dari: epg/scripts/main/${{ matrix.file }}.txt
           python3 -X dev scripts/index.py \
             "${{ matrix.file }}.xml" \
             "scripts/main/${{ matrix.file }}.txt" \
-            "action@github.com" \
+            action@github.com \
             "GitHub Action"
+
+          gzip -9f "${{ matrix.file }}.xml"
 
           echo "::endgroup::"
 
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.file }}
-          # epg_merger.py otomatis membuat .xml.gz di direktori kerja yang sama dengan RESULT
           path: epg/${{ matrix.file }}.xml.gz
 
   publish:
@@ -61,10 +59,10 @@ jobs:
           path: artifacts
           merge-multiple: true
 
-      - name: Copy files to Target Directory
+      - name: Copy files
         run: cp artifacts/*.gz epg/
 
-      - name: Commit & Push Changes
+      - name: Commit & Push
         shell: bash
         run: |
           git config user.name "GitHub Action"
@@ -73,10 +71,9 @@ jobs:
           git add epg/*.gz
 
           if git diff --cached --quiet; then
-            print "No changes in EPG data detected."
+            echo "No changes."
             exit 0
           fi
 
           git commit -m "Auto Update EPG"
-          git pull --rebase origin main
           git push
