@@ -25,7 +25,7 @@ case "${1:-}" in
 
 aio)
     npm run grab -- \
-        --channels="$OUTPUT/scripts/aiochannels.xml" \
+        --channels="$OUTPUT/scripts/main/aiochannels.xml" \
         --output="$OUTPUT/aioepg.xml" \
         --days=2 \
         --maxConnections=10
