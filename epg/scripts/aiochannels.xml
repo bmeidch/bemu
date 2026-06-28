@@ -892,11 +892,9 @@
   <channel site="telenet.tv" site_id="sporting5" lang="en" xmltv_id="PlaySports5PremierLeague.be@SD">Play Sports Premier League</channel>
   <channel site="telenet.tv" site_id="sportinghd2" lang="nl" xmltv_id="PlaySports2.be@SD">Play Sports HD2</channel>
   <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsGolf.be" site_id="primegolf">Play Sports Golf</channel>
-  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsOpen.be" site_id="rexrioinfo">Play Sports Open</channel>
-  <channel site="telenet.tv" site_id="rexrioinfo" lang="nl" xmltv_id="PlaySportsOpen.be@SD">Play Sports Open</channel>
   <channel site="telenet.tv" site_id="wsport" lang="nl" xmltv_id="">W Sport</channel>
   <channel site="telenet.tv" site_id="sporting5" lang="en" xmltv_id="PlaySports5PremierLeague.be@SD">Play Sports Premier League</channel>
- <channel site="sporttv.pt" site_id="727" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7b1d37ebaabd616607f87e73b6b28461c4dc28a0.svg" xmltv_id="SportTV1.pt@SD">SPORT.TV1</channel>
+  <channel site="sporttv.pt" site_id="727" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7b1d37ebaabd616607f87e73b6b28461c4dc28a0.svg" xmltv_id="SportTV1.pt@SD">SPORT.TV1</channel>
   <channel site="sporttv.pt" site_id="728" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/2adbed9d1e4d832b81c9b39c47d4d558ec5ecc5f.svg" xmltv_id="SportTV2.pt@SD">SPORT.TV2</channel>
   <channel site="sporttv.pt" site_id="729" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/04cd76176390f40940a06c24f372c4780850fc44.svg" xmltv_id="SportTV3.pt@SD">SPORT.TV3</channel>
   <channel site="sporttv.pt" site_id="5406" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7f55db09622018d2e76770eb032adfd2c2178a22.svg" xmltv_id="SportTV4.pt@SD">SPORT.TV4</channel>
@@ -904,18 +902,12 @@
   <channel site="sporttv.pt" site_id="7577" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/99242f707846ecc2d8222f3f3b03bfe3b17a169f.svg" xmltv_id="SportTV6.pt@SD">SPORT.TV6</channel>
   <channel site="sporttv.pt" site_id="7600" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/88c0c128f1a26b73c1452ff66e19e88f2db549c6.svg" xmltv_id="SportTV7.pt@SD">SPORT.TV7</channel>
   <channel site="sporttv.pt" site_id="7133" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/5031847ef791d8fb3ebfaddd4e5e62c7e35ed180.svg" xmltv_id="SportTVPlus.pt@SD">SPORT.TV+</channel>
-  <channel site="programetv.ro" lang="ro" xmltv_id="OrangeSport1.ro" site_id="orange-sport-1-hd">Orange Sport 1 HD</channel>
-  <channel site="programetv.ro" lang="ro" xmltv_id="OrangeSport2.ro" site_id="orange-sport-2-hd">Orange Sport 2 HD</channel>
-  <channel site="programetv.ro" lang="ro" xmltv_id="OrangeSport3.ro" site_id="orange-sport-3-hd">Orange Sport 3 HD</channel>
-  <channel site="programetv.ro" lang="ro" xmltv_id="OrangeSport4.ro" site_id="orange-sport-4-hd">Orange Sport 4 HD</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-1-hd">Prima Sport 1 HD</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-2-hd">Prima Sport 2 HD</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-3-hd">Prima Sport 3 HD</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-4-hd">Prima Sport 4 HD</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-5">Prima Sport 5</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="" site_id="prima-sport-5-hd">Prima Sport 5 HD</channel>
-  <channel site="tv.magenta.at" lang="de" xmltv_id="SportdigitalFUSSBALL.de@HD" site_id="206967336053">SPORTDIGITAL FUSSBALL HD</channel>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="SportdigitalFUSSBALL.de" site_id="194">SPORTDIGITAL FUSSBALL</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN.nl" site_id="NL_900016_019441">ESPN</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN.nl" site_id="NL_000107_019441">ESPN</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ESPN2.nl" site_id="NL_000108_019561">ESPN 2</channel>
@@ -928,10 +920,6 @@
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSport4.nl" site_id="NL_000097_019370">Ziggo Sport 4</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSport5.nl" site_id="NL_000098_019255">Ziggo Sport 5</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="ZiggoSport6.nl" site_id="NL_000099_019256">Ziggo Sport 6</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport.ee" site_id="go3-sport">GO3 Sport</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport2.ee" site_id="go3-sport-2">GO3 Sport 2</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport3.ee" site_id="go3-sport-3">GO3 Sport 3</channel>
-  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee" site_id="go3-sport-4">GO3 Sport 4</channel>
   <channel site="nowplayer.now.com" lang="en" xmltv_id="" site_id="612">Now Sports 4K 2</channel>
   <channel site="nowplayer.now.com" lang="en" xmltv_id="" site_id="613">Now Sports 4K 3</channel>
   <channel site="nowplayer.now.com" lang="en" xmltv_id="" site_id="627">Now Sports Premier League 7</channel>
@@ -954,21 +942,6 @@
   <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeague6.hk" site_id="626">Now Sports Premier League 6</channel>
   <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPremierLeagueTV.hk" site_id="620">Now Sports Premier League TV</channel>
   <channel site="nowplayer.now.com" lang="en" xmltv_id="nowSportsPrime.hk" site_id="630">Now Sports Prime</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier1.sg" site_id="99ee7b2d-1a7d-4fb1-8fbe-7903e028a87b">Hub Premier 1</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier2.sg" site_id="fbb0e7b8-649b-4c98-9bbe-713971282d8c">Hub Premier 2 (HD)</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier3.sg" site_id="2d16335e-aea6-47ab-b688-b3c694a27cf6">Hub Premier 3</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier4.sg" site_id="aab336e8-ef09-4e27-91d4-81c35b802a0a">Hub Premier 4</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier5.sg" site_id="37e180c8-9f91-41b2-80fe-237b8eba0d8b">Hub Premier 5</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier6.sg" site_id="ee7f8151-6ddb-4f5a-b651-aa19597ab57b">Hub Premier 6</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier7.sg" site_id="9b01c864-5bcc-46e6-ba8e-3ba6c33ca8fb">Hub Premier 7</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubPremier8.sg" site_id="578cfccf-634d-4beb-a167-741cb91a068e">Hub Premier 8</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports1.sg" site_id="6e5e72ef-9fa6-4007-9537-74e7d08f51c4">Hub Sports 1 HD</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports2.sg" site_id="3c292157-4cf2-48bf-9608-c0ef8ab79cc5">Hub Sports 2 HD</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports3.sg" site_id="9511afb0-2af8-4a1a-9d54-1395924edf91">Hub Sports 3 HD</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="HubSports4.sg" site_id="1944dfe8-b8e6-46c2-a700-78d5b680e2ac">Hub Sports 4 HD</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="" site_id="eac9d5cf-9291-4900-adbd-b81551cbeeb3">Hub Sports 5 HD</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="" site_id="c691a121-f6a9-450d-bd1c-cb41107b65b6">Hub Sports 6</channel>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="" site_id="b4ff91f4-7aa6-4e06-ab58-d3932bcbb496">Hub Sports 7</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport4K.it" site_id="DTH#10013">Sky Sport 4K</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport24.it" site_id="DTH#9094">Sky Sport24</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport251.it" site_id="DTH#11497">Sky Sport</channel>
@@ -978,120 +951,38 @@
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport255.it" site_id="DTH#11491">Sky Sport</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport256.it" site_id="DTH#11492">Sky Sport</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport257.it" site_id="DTH#11386">Sky Sport</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport258.it" site_id="DTH#9046">Sky Sport</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySport259.it" site_id="DTH#8613">Sky Sport</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#7507">Sky Sport Arena</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportArena.it" site_id="DTH#9093">Sky Sport Arena</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportBasket.it" site_id="DTH#9116">Sky Sport Basket</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportCalcio.it" site_id="DTH#9113">Sky Sport Calcio</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportF1.it" site_id="DTH#9096">Sky Sport F1</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportGolf.it" site_id="DTH#10254">Sky Sport Golf</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportLegend.it" site_id="DTH#11910">Sky Sport Legend</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMax.it" site_id="DTH#9103">Sky Sport Max</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMix.it" site_id="DTH#11909">Sky Sport Mix</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportMotoGP.it" site_id="DTH#9102">Sky Sport MotoGP</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportBasket.it" site_id="DTH#8753">Sky Sport Basket</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportTennis.it" site_id="DTH#11237">Sky Sport Tennis</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="SkySportUno.it" site_id="DTH#11346">Sky Sport Uno</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN2.it" site_id="DTH#11401">DAZN 2</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN3.it" site_id="DTH#11849">DAZN3</channel>
-  <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN4.it" site_id="DTH#11850">DAZN4</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN.it" site_id="DTH#11402">DAZN 1</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Eurosport1.fr@Italy" site_id="698573/eurosport-italia">Eurosport Italia</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Eurosport2.fr@Italy" site_id="69857350/eurosport-2-italia">Eurosport 2 Italia</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySport24.it" site_id="83758380/sky-sport-24">SKY SPORT 24</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySportF1.it" site_id="83837049/sky-sport-f1">Sky Sport F1</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="SkySportFootball.it" site_id="83757079/sky-sport-football">Sky Sport Football</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="SkySportMotoGP.it" site_id="83777180/sky-moto-gp">Sky Moto GP</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="SkySportNBA.it" site_id="83757866/sky-sport-nba">Sky Sport NBA</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="SkySportTennis.it" site_id="66487167/sky-sport-tennis">Sky Sport Tennis</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkySportUno.it" site_id="83838085/sky-sport-uno">Sky Sport Uno</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkyTG24.it" site_id="83495456/sky-tg24">Sky TG24</channel>
   <channel site="guida.tv" lang="it" xmltv_id="SkyUno.it" site_id="83758578/sky-uno">Sky Uno</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Sportitalia.it" site_id="83807384/sport-italia">Sport Italia</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Super.it" site_id="73838580/super">Super!</channel>
-  <channel site="guida.tv" lang="it" xmltv_id="SuperTennis.it@HD" site_id="83847273/super-tennis-hd">Super Tennis HD</channel>
   <channel site="guida.tv" lang="it" xmltv_id="TopCalcio24.it" site_id="84675052/top-calcio-24">Top Calcio 24</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-6" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/08/02/2f7ad050-30f6-11ee-b57d-a9829f092f3e_webp_original.webp" xmltv_id="">beIN SPORTS 6</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-7" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/9129ec90-5a1d-11ef-b567-e1cdaa5397dd_webp_original.webp" xmltv_id="">beIN SPORTS 7</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-8" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/91295050-5a1d-11ef-a30f-0d36085b5b8b_webp_original.webp" xmltv_id="">beIN SPORTS 8</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-9" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/91c0fc70-5a1d-11ef-b567-e1cdaa5397dd_webp_original.webp" xmltv_id="">beIN SPORTS 9</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-10" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/920f6a90-5a1d-11ef-b4ec-3bd23b99cc20_webp_original.webp" xmltv_id="">beIN SPORTS 10</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-hd1" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5f3c5240-29cc-11ee-b2f4-e9de482d866e_webp_original.webp" xmltv_id="">beIN SPORTS 1 (617)</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-hd2" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5f346300-29cc-11ee-b2f4-e9de482d866e_webp_original.webp" xmltv_id="">beIN SPORTS 2</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-hd3" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5fda18e0-29cc-11ee-846b-a1c4e5181c87_webp_original.webp" xmltv_id="">beIN SPORTS 3</channel>
-  <channel site="tv.trueid.net" site_id="bein-sports-no-f1" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5f3c5240-29cc-11ee-b2f4-e9de482d866e_webp_original.webp" xmltv_id="">beIN SPORTS 1</channel>
-  <channel site="tv.trueid.net" site_id="beinsports-4" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/08/02/2f7a5b20-30f6-11ee-8c65-b3a6cba5ed9d_webp_original.webp" xmltv_id="">beIN SPORTS 4</channel>
-  <channel site="tv.trueid.net" site_id="beinsports-5" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/08/02/300adb50-30f6-11ee-b3e7-85edd640cc04_webp_original.webp" xmltv_id="">beIN SPORTS 5</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-1" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/dd09ebd0-5a16-11ef-ae6e-398d852551da_webp_original.webp" xmltv_id="">True Ball Thai 1</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-2" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/dd07c8f0-5a16-11ef-8615-cb02228d28e7_webp_original.webp" xmltv_id="">True Ball Thai 2</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-3" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/dd8fe4b0-5a16-11ef-a30f-0d36085b5b8b_webp_original.webp" xmltv_id="">True Ball Thai 3</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-4" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/de19d530-5a16-11ef-b4ec-3bd23b99cc20_webp_original.webp" xmltv_id="">True Ball Thai 4</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-6" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/e0a6c1a0-5a16-11ef-8743-87a41cdc0568_webp_original.webp" xmltv_id="">True Ball Thai 6</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-7" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/e1334a30-5a16-11ef-9c43-a93aeb33b0e5_webp_original.webp" xmltv_id="">True Ball Thai 7</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-8" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/e1c15960-5a16-11ef-9de9-af1b25c2ed4f_webp_original.webp" xmltv_id="">True Ball Thai 8</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-9" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/e2346680-5a16-11ef-8c60-b76aa0302695_webp_original.webp" xmltv_id="">True Ball Thai 9</channel>
-  <channel site="tv.trueid.net" site_id="true-ball-thai-10" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/08/14/e249c340-5a16-11ef-a30f-0d36085b5b8b_webp_original.webp" xmltv_id="">True Ball Thai 10</channel>
-  <channel site="tv.trueid.net" site_id="truepremierfootballhd2" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/05/03/ba4c4510-e966-11ed-896e-69ce273284a6_webp_original.png" xmltv_id="">True Premier Football 2</channel>
-  <channel site="tv.trueid.net" site_id="truepremierfootballhd3" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/05/03/baf9ea30-e966-11ed-a3d3-f3f98ac7a1a1_webp_original.png" xmltv_id="">True Premier Football 3</channel>
-  <channel site="tv.trueid.net" site_id="truepremierfootballhd4" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/05/03/bb0beb90-e966-11ed-993c-b59183950f79_webp_original.png" xmltv_id="">True Premier Football 4</channel>
-  <channel site="tv.trueid.net" site_id="truepremierfootballhd5" lang="en" logo="https://cms.dmpcdn.com/livetv/2023/05/03/bbea1690-e966-11ed-935b-df134f58d288_webp_original.png" xmltv_id="">True Premier Football 5</channel>
-  <channel site="tv.trueid.net" site_id="truesport-5" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/cf4a2b50-b44d-11ee-aa7d-afe908f95743_webp_original.webp" xmltv_id="">True Sports 5</channel>
-  <channel site="tv.trueid.net" site_id="truesport-7" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/cff0f2a0-b44d-11ee-9687-e7ccd66e1ea3_webp_original.webp" xmltv_id="">True Sports 7</channel>
-  <channel site="tv.trueid.net" site_id="truesport-hd" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/cdd42d20-b44d-11ee-9687-e7ccd66e1ea3_webp_original.webp" xmltv_id="">True Sports 1</channel>
-  <channel site="tv.trueid.net" site_id="truesport-hd-2" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce5c21d0-b44d-11ee-aa7d-afe908f95743_webp_original.webp" xmltv_id="">True Sports 2</channel>
-  <channel site="tv.trueid.net" site_id="truesport-hd-3" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce9707f0-b44d-11ee-8e80-c3f417d0d932_webp_original.webp" xmltv_id="">True Sports 3</channel>
-  <channel site="tv.trueid.net" site_id="truesport-hd-4" lang="en" logo="https://cms.dmpcdn.com/livetv/2024/01/16/cf36f170-b44d-11ee-b20d-816339e67c2d_webp_original.webp" xmltv_id="">True Sports 4</channel>
-  <channel site="tv.trueid.net" site_id="tv-nfl-nba" lang="en" logo="https://cms.dmpcdn.com/livetv/2022/12/22/d9313340-81d9-11ed-a7f9-412bbba270e9_webp_original.png" xmltv_id="">NFL &amp; NBA TV</channel>
-  <channel site="tv.trueid.net" site_id="tvs-in-the-8ight" lang="en" logo="https://cms.dmpcdn.com/livetv/2025/10/08/7bd6e460-a413-11f0-8a47-8798c214fc5b_webp_original.webp" xmltv_id="">In the 8ight</channel>
-  <channel site="tv.trueid.net" site_id="tvs-motogp1" lang="en" logo="https://cms.dmpcdn.com/livetv/2025/04/23/e3ad8510-1fef-11f0-bc2b-5955b429894b_webp_original.webp" xmltv_id="">Moto GP1</channel>
-  <channel site="tv.trueid.net" site_id="ufc" lang="en" logo="https://cms.dmpcdn.com/livetv/2022/11/16/88521af0-6598-11ed-8215-b386a7bd4f58_webp_original.png" xmltv_id="">UFC</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC1.sa@HD" site_id="900303">SSC1 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC2.sa" site_id="948832">SSC2 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC3.sa" site_id="948833">SSC3 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC4.sa@HD" site_id="948835">SSC4 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSC5.sa" site_id="948838">SSC5 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSCExtra1.sa" site_id="948841">SSC Extra 1 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSCExtra2.sa" site_id="948843">SSC Extra 2 HD</channel>
-  <channel site="shahid.mbc.net" lang="en" xmltv_id="SSCExtra3.sa" site_id="948845">SSC Extra 3 HD</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143835">Star Sports 1</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143837">Star Sports 1 HD</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143838">Star Sports 1 HD Hindi</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143839">Star Sports 1 Hindi</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143844">Star Sports 2</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143845">Star Sports 2 HD</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143846">Star Sports 3</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143847">Star Sports 2 Kannada</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143848">Star Sports Select 1</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143849">Star Sports Select 1 HD</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143850">Star Sports Select 2</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="143851">Star Sports Select 2 HD</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="157591">Sony Sports Ten 1</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="157592">Sony Sports Ten 2</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="157593">Sony Sports Ten 5</channel>
   <channel site="dishtv.in" lang="en" xmltv_id="" site_id="153079">Sony Sports Ten 3 Hindi</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="159126">Sony Sports Ten 1 HD</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="159127">Sony Sports Ten 2 HD</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="159128">Sony Sports Ten 3 Hindi HD</channel>
-  <channel site="dishtv.in" lang="en" xmltv_id="" site_id="159129">Sony Sports Ten 5 HD</channel>
-<channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport1Premium.rs" site_id="a1p" logo="https://www.tvarenasport.com/files/img/icons/chanel-a1p.png">Arena Sport 1 Premium Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport2Premium.rs" site_id="a2p" logo="https://www.tvarenasport.com/files/img/icons/chanel-a2p.png">Arena Sport 2 Premium Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport3Premium.rs" site_id="a3p" logo="https://www.tvarenasport.com/files/img/icons/chanel-a3p.png">Arena Sport 3 Premium Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport4Premium.rs" site_id="a4p" logo="https://www.tvarenasport.com/files/img/icons/chanel-a4p.png">Arena Sport 4 Premium Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport5Premium.rs" site_id="aa5p" logo="https://www.tvarenasport.com/files/img/icons/chanel-aa5p.png">Arena Sport 5 Premium Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport1.rs" site_id="01" logo="https://www.tvarenasport.com/files/img/icons/chanel-01.png">Arena Sport 1 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport2.rs" site_id="02" logo="https://www.tvarenasport.com/files/img/icons/chanel-02.png">Arena Sport 2 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport3.rs" site_id="03" logo="https://www.tvarenasport.com/files/img/icons/chanel-03.png">Arena Sport 3 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport4.rs" site_id="04" logo="https://www.tvarenasport.com/files/img/icons/chanel-04.png">Arena Sport 4 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport5.rs" site_id="05" logo="https://www.tvarenasport.com/files/img/icons/chanel-05.png">Arena Sport 5 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport6.rs" site_id="06" logo="https://www.tvarenasport.com/files/img/icons/chanel-06.png">Arena Sport 6 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport7.rs" site_id="07" logo="https://www.tvarenasport.com/files/img/icons/chanel-07.png">Arena Sport 7 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport8.rs" site_id="08" logo="https://www.tvarenasport.com/files/img/icons/chanel-08.png">Arena Sport 8 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport9.rs" site_id="09" logo="https://www.tvarenasport.com/files/img/icons/chanel-09.png">Arena Sport 9 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport10.rs" site_id="10" logo="https://www.tvarenasport.com/files/img/icons/chanel-10.png">Arena Sport 10 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSport1x2.rs" site_id="1x2" logo="https://www.tvarenasport.com/files/img/icons/chanel-1x2.png">Arena Sport 1x2 Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSportAdrenalin.rs" site_id="a-adrenalin" logo="https://www.tvarenasport.com/files/img/icons/chanel-a-adrenalin.png">Arena Sport Adrenalin Serbia</channel>
-  <channel site="tvarenasport.com" lang="sr" xmltv_id="ArenaSportTenis.rs" site_id="a-tenis" logo="https://www.tvarenasport.com/files/img/icons/chanel-a-tenis.png">Arena Sport Tenis Serbia</channel>
   <channel site="tvarenasport.hr" lang="hr" xmltv_id="ArenaSport1.hr" site_id="01">Arena Sport 1</channel>
   <channel site="tvarenasport.hr" lang="hr" xmltv_id="ArenaSport2.hr" site_id="02">Arena Sport 2</channel>
   <channel site="tvarenasport.hr" lang="hr" xmltv_id="ArenaSport3.hr" site_id="03">Arena Sport 3</channel>
@@ -1116,7 +1007,6 @@
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A">beIN SPORTS MAX 8</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="FB208953-1C70-4D1E-B918-103AB02AB181">beIN SPORTS MAX 9</channel>
   <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="6F425028-14F0-4E38-B776-71A9DB3F3493">beIN SPORTS MAX 10</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="2BF668DF-1B76-4199-88CE-8691FD86AD8C">beIN SPORTS 6 AFC</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="5C08D9D3-C713-4F1F-947E-87C761428B9B">beIN SPORTS 9</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="7A8040D9-7BAF-477E-B9F7-8BAB88F677E8">beIN SPORTS XTRA 4</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="8C1EC4FC-35E6-4866-A75D-37FCFAE18839">beIN SPORTS EN 1</channel>
@@ -1125,13 +1015,10 @@
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="51D28C47-7B79-4007-81A3-BFDF9BC65A3B">beIN SPORTS XTRA 5</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="846C79D6-18F8-4A4D-ACFA-2C18DCCB6398">beIN SPORTS EN 2</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="1752F091-A114-4629-BED4-46E0BB488A24">beIN SPORTS XTRA 7</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="42680C3C-580F-43DA-BDD8-02651BD10F32">beIN SPORTS 4 AFC</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="522050CE-EBD3-43EA-B636-42B034FDC05C">beIN SPORTS XTRA 9</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="93000494-0DF8-4107-AF0E-1C99D3DBB2EC">beIN SPORTS FR 1</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="B0DBD19A-9F44-4197-BD09-2B6A5F315F3B">beIN SPORTS 5 AFC</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="CD634732-20D1-4137-94E7-939DE93D056D">beIN SPORTS XTRA 8</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="CDF1A4C8-26DD-4C33-A239-F729A3B09295">beIN SPORTS XTRA 3</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beIN4K.qa" site_id="67DD49E9-E3A2-4B3A-94B8-88C620A4DFB1">beIN 4K</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports1.qa" site_id="7836FEA9-6B39-4A1A-8352-DC5FCB97A16C">beIN SPORTS 1</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports2.qa" site_id="FD1DD7DD-1E7B-4AA2-8682-BFA17338E653">beIN SPORTS 2</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports3.qa" site_id="8AEA2426-D451-4BA5-BF48-114A1F04B1A8">beIN SPORTS 3</channel>
@@ -1141,10 +1028,6 @@
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports7.qa" site_id="A892063B-A5D9-4199-95AC-6A214515FA6B">beIN SPORTS 7</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports8.qa" site_id="0F8D20A4-D46C-4B18-9242-8E7B3E978FF8">beIN SPORTS 8</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports.qa" site_id="84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8">beIN SPORTS</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC1.qa" site_id="0CB3E227-4376-4545-AB64-D6C390F644D8">beIN SPORTS 1 AFC</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC2.qa" site_id="EEB3E4E8-0F9D-4735-943C-AEA3E39C87DE">beIN SPORTS 2 AFC</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC3.qa" site_id="A2D36A21-00D5-4001-A443-81CF2C06553F">beIN SPORTS 3 AFC</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC.qa" site_id="10A2A142-F98C-4706-9FD0-2D3C36045D63">beIN SPORTS AFC</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax1.qa" site_id="2FB43094-3598-43C1-A3BA-44BFB40092E0">beIN SPORTS MAX 1</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax2.qa" site_id="008F0EA9-FCD9-4E8C-849A-913979E7450A">beIN SPORTS MAX 2</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax3.qa" site_id="7783DC02-4527-4094-9EE3-CDA8E093E4EB">beIN SPORTS MAX 3</channel>
@@ -1152,18 +1035,8 @@
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax5.qa" site_id="F7215920-CCF9-4DBB-8B9D-152E232FA549">beIN SPORTS MAX 5</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax6.qa" site_id="DC04009D-7E18-4D1C-BA7F-7269B8F8D065">beIN SPORTS MAX 6</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsNBA.qa" site_id="2F518547-2269-4C07-93D5-2733397472BD">beIN SPORTS NBA</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsNews.qa" site_id="7B558284-F996-4123-9584-1E5D01844270">beIN SPORTS NEWS</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsXtra1.qa" site_id="E3B37FA0-E582-45B2-BB8E-516E1A714EF6">beIN SPORTS XTRA 1</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSportsXtra2.qa" site_id="27E67022-B943-4913-9AF3-AFD3DAC9854B">beIN SPORTS XTRA 2</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="5F323488-6662-42DC-BE1C-B954ECDD5CD7">beIN SPORTS 2</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="07C1C284-D784-4AD2-9F7E-022DCD196D04">beIN SPORTS 3</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="7C714598-E7ED-4B0F-8BD1-E8E80D473922">beIN SPORTS 3</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="02821165-CA6E-4A60-B781-C9C67B587185">beIN SPORTS 1</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="A4320E60-381D-4435-8294-B4F3F33BF01C">beIN SPORTS 1</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="DDFC8C16-6363-4A2C-AE66-2CE357DBC28E">beIN SPORTS 2</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="E41B16D3-5172-4D56-B2C7-E2BB41E38CAD">beIN SPORTS 3</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="E227320A-8BA4-4ECB-A521-6DA53ADED441">beIN SPORTS 1</channel>
-  <channel site="beinsports.com" lang="en" xmltv_id="" site_id="F3CE2580-D815-4D33-84FC-6B95742BFB00">beIN SPORTS 3</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="beINSports1.qa@Malaysia" site_id="0FA3DEF0-234B-4E25-934F-392DF2C3162C">beIN SPORTS 1</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="A31EDF08-2A80-4D1F-9016-43A9C6138255">beIN SPORTS</channel>
   <channel site="beinsports.com" lang="en" xmltv_id="" site_id="B76EB90E-0657-4D61-9265-68ADA92E34CD">beIN SPORTS</channel>
