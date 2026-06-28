@@ -1,20 +1,11 @@
-indonesia1.xml
-https://www.open-epg.com/files/indonesia1.xml
+indonesia.xml
+https://iptv-epg.org/files/epg-id.xml
 
-indonesia2.xml
-https://www.open-epg.com/files/indonesia2.xml
+indonesia.xml
+https://www.open-epg.com/files/indonesia.xml
 
-indonesia3.xml
-https://www.open-epg.com/files/indonesia3.xml
-
-indonesia4.xml
-https://www.open-epg.com/files/indonesia4.xml
-
-indonesia5.xml
-https://www.open-epg.com/files/indonesia5.xml
-
-indonesia6.xml
-https://www.open-epg.com/files/indonesia6.xml
+malaysia.xml
+https://iptv-epg.org/files/epg-my.xml
 
 malaysia1.xml
 https://www.open-epg.com/files/malaysia1.xml
@@ -24,6 +15,9 @@ https://www.open-epg.com/files/malaysia2.xml
 
 malaysia3.xml
 https://www.open-epg.com/files/malaysia3.xml
+
+singapore.xml
+https://iptv-epg.org/files/epg-sg.xml
 
 singapore1.xml
 https://www.open-epg.com/files/singapore1.xml
@@ -37,20 +31,11 @@ https://www.open-epg.com/files/singapore3.xml
 china1.xml
 https://www.open-epg.com/files/china1.xml
 
-china2.xml
-https://www.open-epg.com/files/china2.xml
+china3.xml
+https://www.open-epg.com/files/china3.xml
 
 india1.xml
 https://www.open-epg.com/files/india1.xml
 
-india3.xml
-https://www.open-epg.com/files/india3.xml
-
-india5.xml
-https://www.open-epg.com/files/india5.xml
-
-taiwan1.xml
-https://www.open-epg.com/files/taiwan1.xml
-
-taiwan2.xml
-https://www.open-epg.com/files/taiwan1.xml
+india.xml
+https://iptv-epg.org/files/epg-in.xml
