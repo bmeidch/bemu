@@ -24,7 +24,9 @@ jobs:
           pwd       
           python3 -m pip install lxml
           python scripts/index.py guideoe.xml scripts/main/mainoe.txt "action@github.com" "GitHub Action"
-          python scripts/index.py guideio.xml scripts/main/mainio.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guiamer.xml scripts/main/amer.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guiyuro.xml scripts/main/yuro.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guisports.xml scripts/main/sports.txt "action@github.com" "GitHub Action"
           python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
           python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
 
@@ -32,7 +34,9 @@ jobs:
         working-directory: epg
         run: |
           gzip -9 -f guideoe.xml &
-          gzip -9 -f guideio.xml &
+          gzip -9 -f guiamer.xml &
+          gzip -9 -f guiyuro.xml &
+          gzip -9 -f guisports.xml &
           gzip -9 -f local.xml &
           gzip -9 -f nze.xml &
           wait
