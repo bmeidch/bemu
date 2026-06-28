@@ -1,7 +1,7 @@
 name: Generate EPG every day
 on:
   schedule:
-    - cron: '00 00-12/6 * * *'
+    - cron: '00 00-16/4 * * *'
   pull_request:
     branches:
       - master
@@ -38,11 +38,5 @@ jobs:
       - name: Commit Changes
         run: |
           git add -A
-
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-
           git commit -m "SIP Auto Update EPG"
           git push
