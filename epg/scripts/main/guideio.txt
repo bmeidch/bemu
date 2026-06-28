@@ -1,11 +1,5 @@
-argentina.xml
-https://iptv-epg.org/files/epg-ar.xml
-
 belgium.xml
 https://iptv-epg.org/files/epg-be.xml
-
-canada.xml
-https://iptv-epg.org/files/epg-ca.xml
 
 france.xml
 https://iptv-epg.org/files/epg-fr.xml
@@ -31,8 +25,5 @@ https://iptv-epg.org/files/epg-ch.xml
 spain.xml
 https://iptv-epg.org/files/epg-es.xml
 
-unitedkingdom1.xml
+unitedkingdom.xml
 https://iptv-epg.org/files/epg-gb.xml
-
-unitedstate.xml
-https://iptv-epg.org/files/epg-us.xml
