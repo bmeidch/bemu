@@ -21,8 +21,7 @@ jobs:
           - visionplus
           - vidio
           - cubmu
-          - dens
-          - mncvision
+          - dens        
 
     steps:
       - name: Checkout Repository
