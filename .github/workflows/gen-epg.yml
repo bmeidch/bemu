@@ -23,14 +23,16 @@ jobs:
           cd epg
           pwd       
           python3 -m pip install lxml
-          python scripts/index.py guide.xml scripts/main/main.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guide.xml scripts/main/mainoe.txt "action@github.com" "GitHub Action"
+          python scripts/index.py guide.xml scripts/main/mainio.txt "action@github.com" "GitHub Action"
           python scripts/index.py local.xml scripts/local/local.txt "action@github.com" "GitHub Action"
           python scripts/index.py nze.xml scripts/nze/nze.txt "action@github.com" "GitHub Action"
 
       - name: Compress XML
         working-directory: epg
         run: |
-          gzip -9 -f guide.xml &
+          gzip -9 -f guideoe.xml &
+          gzip -9 -f guideio.xml &
           gzip -9 -f local.xml &
           gzip -9 -f nze.xml &
           wait
