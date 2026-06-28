@@ -1,7 +1,6 @@
 argentina.xml
 https://iptv-epg.org/files/epg-ar.xml
 
-
 canada.xml
 https://iptv-epg.org/files/epg-ca.xml
 
