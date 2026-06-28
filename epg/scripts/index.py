@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-EPG Merger v3.0 - Fixed & Optimized
+EPG Merger v3.1 - Fixed Path & Memory Optimized
 """
 
 import os
@@ -13,7 +13,6 @@ import shutil
 import traceback
 import requests
 import lxml.etree as et
-import xml.dom.minidom as dom
 import gzip
 import tracemalloc
 import hashlib
@@ -23,7 +22,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # --------------------------------------------------------
-# Arguments & Global Variables (Dinaikkan agar aman & rapi)
+# Arguments & Global Variables
 # --------------------------------------------------------
 if len(sys.argv) < 6:
     print("Usage: epg_merger.py <RESULT> <SOURCE> <CAPTION_NAME> <CAPTION_URL>")
@@ -31,7 +30,8 @@ if len(sys.argv) < 6:
 
 _, RESULT, SOURCE, CAPTION_NAME, CAPTION_URL = sys.argv
 
-TMP = Path("../tmp")
+# Menggunakan subfolder lokal agar aman di sandbox GitHub Actions
+TMP = Path("tmp_epg_downloads")
 MAX_WORKERS = 8
 TIMEOUT = 30
 
@@ -65,7 +65,7 @@ adapter = HTTPAdapter(
 session = requests.Session()
 session.mount("http://", adapter)
 session.mount("https://", adapter)
-session.headers.update({"User-Agent": "EPG-Merger/3.0"})
+session.headers.update({"User-Agent": "EPG-Merger/3.1"})
 
 # --------------------------------------------------------
 # Logger
@@ -89,9 +89,9 @@ def validate_xml(file):
 
 def download(url, filename, index, total):
     outfile = TMP / filename
-    if outfile.exists():
+    if outfile.exists() and outfile.stat().st_size > 0:
         stats["skipped"] += 1
-        ok(f"[{index:02}/{total}] Skip {filename}")
+        ok(f"[{index:02}/{total}] Skip {filename} (Already exists)")
         return
 
     try:
@@ -103,14 +103,15 @@ def download(url, filename, index, total):
             f.write(response.content)
 
         if not validate_xml(outfile):
-            raise Exception("Downloaded file is not valid XML.")
+            raise Exception("Downloaded file is broken or not a valid XML.")
 
         stats["download"] += 1
-        ok(filename)
-    except Exception:
+        ok(f"Success download {filename}")
+    except Exception as e:
         stats["failed"] += 1
-        fail(filename)
-        traceback.print_exc()
+        fail(f"Failed to download {filename}: {e}")
+        if outfile.exists():
+            outfile.unlink()  # Hapus file rusak agar tidak lolos di proses berikutnya
         raise
 
 def download_all(files, urls):
@@ -121,7 +122,10 @@ def download_all(files, urls):
         for index, (url, filename) in enumerate(zip(urls, files), start=1):
             futures.append(executor.submit(download, url, filename, index, total))
         for future in as_completed(futures):
-            future.result()
+            try:
+                future.result()
+            except Exception:
+                pass # Tetap lanjutkan file lain walau ada satu yang gagal
     endgroup()
 
 # --------------------------------------------------------
@@ -129,20 +133,24 @@ def download_all(files, urls):
 # --------------------------------------------------------
 def load_mapping(filename):
     mapping = {}
-    txt = Path(SOURCE).parent / f"{filename}.txt"
+    # Menghapus ekstensi .xml jika ada (contoh: guide.xml -> guide.txt)
+    clean_name = filename.replace(".xml", "")
+    txt = Path(SOURCE).parent / f"{clean_name}.txt"
+    
     if not txt.exists():
         return mapping
+        
     with open(txt, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line or "," not in line:
+            if not line or "," not in line or line.startswith("#"):
                 continue
             old, new = line.split(",", 1)
-            mapping[old] = new
+            mapping[old.strip()] = new.strip()
     return mapping
 
 # --------------------------------------------------------
-# Streaming Merge Engine v3.0
+# Streaming Merge Engine v3.1
 # --------------------------------------------------------
 def stream_merge():
     global CHANNELS, PROGRAMMES
@@ -158,6 +166,7 @@ def stream_merge():
                 info(f"Processing {xmlfile.name}")
                 mapping = load_mapping(xmlfile.name)
                 
+                # Menggunakan iterparse dengan membersihkan root node secara berkala
                 context = et.iterparse(str(xmlfile), events=("end",))
                 channel_count = 0
                 programme_count = 0
@@ -173,7 +182,7 @@ def stream_merge():
                             channels_set.add(cid)
                             xf.write(elem)
                             channel_count += 1
-                            CHANNELS += 1 # Update global counter
+                            CHANNELS += 1
 
                     elif elem.tag == "programme":
                         channel = elem.attrib.get("channel")
@@ -188,11 +197,15 @@ def stream_merge():
                             programmes_set.add(key)
                             xf.write(elem)
                             programme_count += 1
-                            PROGRAMMES += 1 # Update global counter
+                            PROGRAMMES += 1
 
+                    # Bersihkan element dari memori
                     elem.clear()
+                    # Menghapus referensi dari root node agar RAM tidak jebol pada XML raksasa
+                    while elem.getprevious() is not None:
+                        del elem.getparent()[0]
                 
-                ok(f"{xmlfile.name} C:{channel_count} P:{programme_count}")
+                ok(f"{xmlfile.name} -> Added Channels: {channel_count}, Programmes: {programme_count}")
     endgroup()
 
 # --------------------------------------------------------
@@ -202,9 +215,9 @@ def validate_result():
     group("Validate Output")
     try:
         et.parse(RESULT)
-        ok("XML OK")
-    except Exception:
-        fail("Generated XML is invalid")
+        ok("XML Output is valid and well-formed.")
+    except Exception as e:
+        fail(f"Generated XML is broken: {e}")
         raise
     endgroup()
 
@@ -214,7 +227,7 @@ def compress():
     with open(RESULT, "rb") as fin:
         with gzip.open(gz, "wb", compresslevel=9) as fout:
             shutil.copyfileobj(fin, fout)
-    ok(gz)
+    ok(f"Compressed to {gz}")
     endgroup()
 
 def checksum():
@@ -233,7 +246,7 @@ def cleanup():
     group("Cleanup")
     if TMP.exists():
         shutil.rmtree(TMP, ignore_errors=True)
-        ok("Temporary directory removed")
+        ok("Temporary working directory cleaned up.")
     endgroup()
 
 def report():
@@ -243,7 +256,7 @@ def report():
 
     print()
     print("=" * 45)
-    print("           EPG MERGER v3.0")
+    print("            EPG MERGER v3.1")
     print("=" * 45)
     print(f"Downloaded : {stats['download']}")
     print(f"Skipped    : {stats['skipped']}")
@@ -270,15 +283,23 @@ def main():
     files = []
     urls = []
 
-    with open(SOURCE) as f:
+    if not Path(SOURCE).exists():
+        fail(f"Source file not found at: {SOURCE}")
+        sys.exit(1)
+
+    with open(SOURCE, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line:
+            if not line or line.startswith("#"):
                 continue
             if line.startswith("http"):
                 urls.append(line)
             else:
                 files.append(line)
+
+    if not urls or not files:
+        fail("No valid URLs or Filenames discovered inside the source txt file.")
+        sys.exit(1)
 
     download_all(files, urls)
     stream_merge()
@@ -293,9 +314,9 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        fail("Cancelled")
+        fail("Process cancelled by user.")
         sys.exit(130)
-    except Exception:
+    except Exception as e:
         traceback.print_exc()
         sys.exit(1)
     finally:
