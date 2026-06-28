@@ -9,33 +9,71 @@ permissions:
   contents: write
 
 jobs:
-  epg:
+  generate:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         file: [guideoe, guideio, local, nze]
 
     steps:
       - uses: actions/checkout@v4
 
-      - run: |
-          pip3 install -q lxml
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+      - name: Install
+        run: pip3 install -q lxml
 
-      - working-directory: epg
+      - name: Generate ${{ matrix.file }}
+        working-directory: epg
+        shell: bash
         run: |
-          python3 scripts/index.py \
+          set -Eeuo pipefail
+          trap 'echo "::error::${{ matrix.file }} failed at line $LINENO: $BASH_COMMAND"' ERR
+
+          echo "::group::Generate ${{ matrix.file }}"
+
+          python3 -X dev scripts/index.py \
             "${{ matrix.file }}.xml" \
             "scripts/main/${{ matrix.file }}.txt" \
-            action@github.com "GitHub Action"
+            action@github.com \
+            "GitHub Action"
 
           gzip -9f "${{ matrix.file }}.xml"
 
-      - run: |
-          git add epg/${{ matrix.file }}.xml.gz
-          git diff --cached --quiet || {
-            git commit -m "Update ${{ matrix.file }}"
-            git push
-          }
+          echo "::endgroup::"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.file }}
+          path: epg/${{ matrix.file }}.xml.gz
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+
+      - name: Copy files
+        run: cp artifacts/*.gz epg/
+
+      - name: Commit & Push
+        shell: bash
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git add epg/*.gz
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Auto Update EPG"
+          git push
