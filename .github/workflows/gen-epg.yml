@@ -76,4 +76,5 @@ jobs:
           fi
 
           git commit -m "Auto Update EPG"
+          git pull --rebase origin main
           git push
