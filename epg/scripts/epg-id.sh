@@ -83,16 +83,6 @@ dens)
     compress "$OUTPUT/id-ds.xml"
     ;;
 
-mncvision)
-    npm run grab -- \
-        --channels="$OUTPUT/scripts/mvs.xml" \
-        --output="$OUTPUT/id-mvsepg.xml" \
-        --days=2 \
-        --maxConnections=10
-
-    compress "$OUTPUT/id-mvsepg.xml"
-    ;;
-
 *)
     echo "Usage:"
     echo "  $0 aio"
@@ -100,8 +90,7 @@ mncvision)
     echo "  $0 visionplus"
     echo "  $0 vidio"
     echo "  $0 cubmu"
-    echo "  $0 dens"
-    echo "  $0 mncvision"
+    echo "  $0 dens"   
     exit 1
     ;;
 esac
