@@ -1,8 +1,0 @@
-sports1.xml
-https://www.open-epg.com/files/sports1.xml
-
-sports4.xml
-https://www.open-epg.com/files/sports4.xml
-
-sports5.xml
-https://www.open-epg.com/files/sports5.xml
