@@ -1,0 +1,124 @@
+ABC Australia - [Channel 350].id,ABCAustraliach.ch.au
+Al Jazeera English - [Channel 331].id,AlJazeeraEnglish.ch.qa
+Al Quran Al Kareem - [Channel 93].id,AlQuranAlKareemTV.ch.sa
+Animax - [Channel 157].id,AnimaxAsia.ch.sg
+ANTV - [Channel 115].id,ANTV.ch.id
+Arirang - [Channel 351].id,ArirangWorld.ch.kr
+AXN - [Channel 154].id,AXN.ch.id
+AXN HD - [Channel 438].id,AXN.HD.ch.id
+BabyTV - [Channel 40].id,BabyTV.ch.uk
+BBC Earth - [Channel 200].id,BBCEarthAsia.ch.uk
+BBC Earth HD - [Channel 461].id,BBCEarthAsia.HD.ch.uk
+BBC World News - [Channel 332].id,BBCWorldNewsAsiaPacific.ch.uk
+Berita Satu - [Channel 103].id,BeritaSatu.ch.id
+Bloomberg - [Channel 338].id,BloombergTVAsia.ch.hk
+CBeebies - [Channel 41].id,CBeebiesAsia.ch.uk
+CCM - [Channel 22].id,CCM.ch.id
+Celebrities TV - [Channel 96].id,CelebritiesTV.ch.id
+Celestial Movies - [Channel 20].id,CelestialMovies.ch.id
+CGTN - [Channel 353].id,CGTN.ch.cn
+CGTN Documentary - [Channel 205].id,CGTNDocumentary.ch.cn
+Channel News Asia - [Channel 330].id,CNA.ch.sg
+CINEMACHI - [Channel 7].id,CINEMACHI.ch.id
+CINEMACHI ACTION - [Channel 8].id,CINEMACHIACTION.ch.id
+CINEMACHI ACTION HD - [Channel 402].id,CINEMACHIACTION.HD.ch.id
+CINEMACHI HD - [Channel 401].id,CINEMACHI.HD.ch.id
+CINEMACHI KIDS - [Channel 9].id,CINEMACHIKIDS.ch.id
+CINEMACHI KIDS HD - [Channel 403].id,CINEMACHIKIDS.HD.ch.id
+CINEMACHI MAX - [Channel 10].id,CINEMACHIMAX.ch.id
+CINEMACHI MAX HD - [Channel 404].id,CINEMACHIMAX.HD.ch.id
+CINEMACHI XTRA - [Channel 6].id,CINEMACHIXTRA.ch.id
+CINEMACHI XTRA HD - [Channel 405].id,CINEMACHIXTRA.HD.ch.id
+CNBC - [Channel 337].id,CNBCAsia.ch.sg
+Crime Investigation - [Channel 207].id,Crime.Investigation.ch.id
+Dreamworks - [Channel 47].id,Dreamworks.ch.id
+DW English - [Channel 357].id,DWEnglish.ch.id
+Entertainment - [Channel 86].id,Entertainment.ch.id
+EURONEWS - [Channel 333].id,EuroNewsEnglish.ch.fr
+Fight Sports - [Channel 304].id,FightSports.ch.us
+FMN - [Channel 150].id,FMN.ch.id
+FOX News - [Channel 335].id,FoxNewsChannel.ch.us
+France 24 English - [Channel 352].id,France24English.ch.fr
+Galaxy - [Channel 13].id,Galaxy.ch.id
+Galaxy Premium - [Channel 12].id,GalaxyPremium.ch.id
+Global Trekker - [Channel 201].id,GlobalTrekker.ch.sg
+GTV - [Channel 81].id,GTV.ch.id
+GTV HD - [Channel 431].id,GTV.HD.ch.id
+History - [Channel 206].id,History.ch.id
+HITS - [Channel 160].id,HITS.ch.id
+HITS MOVIES - [Channel 11].id,HITSMovies.ch.sg
+HITS MOVIES HD - [Channel 409].id,HITSMovies.HD.ch.sg
+IDX - [Channel 100].id,IDXChannel.ch.id
+IDX HD - [Channel 436].id,IDXChannel.HD.ch.id
+IMC - [Channel 14].id,IMC.ch.id
+Indosiar - [Channel 78].id,Indosiar.ch.id
+iNews - [Channel 83].id,iNews.ch.id
+iNews HD - [Channel 433].id,iNews.HD.ch.id
+JAKTV - [Channel 113].id,JAKTV.ch.id
+Kids TV - [Channel 46].id,KidsTV.ch.id
+KIX - [Channel 161].id,KIX.ch.id
+Kompas TV - [Channel 106].id,Kompas.TV.ch.id
+LIFE - [Channel 91].id,LIFE.ch.id
+Lifetime - [Channel 167].id,Lifetime.ch.id
+Metro TV - [Channel 107].id,MetroTV.ch.id
+MNCTV - [Channel 82].id,MNCTV.ch.id
+MNCTV HD - [Channel 432].id,MNCTV.HD.ch.id
+MTV 90's - [Channel 149].id,MTV90s.ch.id
+MTV LIVE - [Channel 148].id,MTVLive.ch.us
+Music TV - [Channel 111].id,MusicTV.ch.id
+Muslim TV - [Channel 92].id,MuslimTV.ch.id
+My Cinema - [Channel 16].id,MyCinema.ch.id
+My Cinema Asia - [Channel 17].id,MyCinemaAsia.ch.id
+My Family - [Channel 15].id,MyFamily.ch.id
+My Kidz - [Channel 50].id,MyKidz.ch.id
+Nat Geo Wild HD - [Channel 463].id,NatGeoWild.HD.ch.id
+National Geographic Channel - [Channel 202].id,NatGeoWild.ch.id
+National Geographic Channel HD - [Channel 460].id,NationalGeographic.HD.ch.id
+National Geographic Wild - [Channel 204].id,NatGeoWild.ch.id
+NET TV - [Channel 116].id,NET.TV.ch.id
+NHK World - [Channel 355].id,NHKWorldJapan.ch.id
+NHK World Premium - [Channel 354].id,NHKWorldPremium.ch.id
+Nick Jr. HD - [Channel 472].id,NickJr.HD.ch.id
+Nickelodeon - [Channel 49].id,Nickelodeon.ch.id
+Nickelodeon Jr - [Channel 37].id,NickJr.ch.id
+OK TV - [Channel 95].id,OKTV.ch.id
+Okezone TV - [Channel 90].id,Okezone.TV.ch.id
+ONE - [Channel 164].id,ONE.ch.id
+ONE HD - [Channel 445].id,ONE.HD.ch.id
+PARAMOUNT - [Channel 163].id,ParamountNetwork.ch.id
+PARAMOUNT HD - [Channel 441].id,ParamountNetwork.HD.ch.id
+RCTI - [Channel 80].id,RCTI.ch.id
+RCTI HD - [Channel 430].id,RCTI.HD.ch.id
+Rock Action - [Channel 248].id,ROCKExtreme.ch.sg
+Rock Entertainment - [Channel 240].id,ROCKEntertainment.ch.sg
+SCTV - [Channel 89].id,SCTV.ch.id
+SEA TODAY - [Channel 336].id,SEAToday.ch.id
+Sindo News TV - [Channel 84].id,SindoNewsTV.ch.id
+Sindo News TV HD - [Channel 434].id,SindoNewsTV.HD.ch.id
+Soccer Channel - [Channel 101].id,SoccerChannel.ch.id
+Soccer Channel HD - [Channel 420].id,SoccerChannel.HD.ch.id
+Sportstars - [Channel 102].id,Sportstars.ch.id
+Sportstars 2 - [Channel 98].id,Sportstars2.ch.id
+Sportstars 2 HD - [Channel 422].id,Sportstars2.HD.ch.id
+Sportstars 3 - [Channel 99].id,Sportstars3.ch.id
+Sportstars 4 - [Channel 88].id,Sportstars4.ch.id
+Sportstars 4 HD - [Channel 424].id,Sportstars4.HD.ch.id
+Sportstars HD - [Channel 421].id,Sportstars.HD.ch.id
+SPOTV - [Channel 307].id,SPOTV.kr.ch
+SPOTV 2 - [Channel 308].id,SPOTV2.ch.kr
+SPOTV 2 HD - [Channel 428].id,SPOTV2.HD.ch.kr
+SPOTV HD - [Channel 427].id,SPOTV.HD.ch.kr
+Tawaf TV - [Channel 105].id,TawafTV.ch.id
+Thrill - [Channel 19].id,Thrill.ch.hk
+Trans 7 - [Channel 110].id,Trans7.ch.id
+Trans TV - [Channel 87].id,TransTV.ch.id
+tvN - [Channel 158].id,tvN.HD.ch.id
+tvN HD - [Channel 446].id,tvN.HD.ch.id
+tvN Movies - [Channel 25].id,tvN.Movies.HD.ch.id
+tvN Movies HD - [Channel 415].id,tvN.Movies.HD.ch.id
+tvOne - [Channel 97].id,tvOne.ch.id
+TVRI - [Channel 118].id,TVRI.ch.id
+Vision Prime - [Channel 94].id,VisionPrime.ch.id
+Vision Prime HD - [Channel 1].id,VisionPrime.HD.ch.id
+Zee Bioskop - [Channel 23].id,ZeeBioskop.ch.id
+Zoomoo - [Channel 39].id,Zoomoo.ch.sg
