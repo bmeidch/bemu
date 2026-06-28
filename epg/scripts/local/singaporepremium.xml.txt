@@ -1,8 +1,0 @@
-Channel 5 HD,Channel5.sg
-Channel 8 HD,Channel8.sg
-Channel NewsAsia HD,ChannelNewsAsia.sg
-Channel U HD,ChannelU.sg
-Dragon TV,DragonTV.sg
-GEM HD,GEM.sg
-SEA Today,SEAToday.sg
-Suria HD,Suria.sg
