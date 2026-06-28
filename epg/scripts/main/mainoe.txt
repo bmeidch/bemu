@@ -1,20 +1,5 @@
-argentina.xml
-https://www.open-epg.com/files/argentina.xml
-
 belgium.xml
 https://www.open-epg.com/files/belgium.xml
-
-sports1.xml
-https://www.open-epg.com/files/sports1.xml
-
-sports4.xml
-https://www.open-epg.com/files/sports4.xml
-
-sports5.xml
-https://www.open-epg.com/files/sports5.xml
-
-canada.xml
-https://www.open-epg.com/files/canada.xml
 
 france2.xml
 https://www.open-epg.com/files/france2.xml
