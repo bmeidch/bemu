@@ -12,6 +12,10 @@ jobs:
   epg:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        file: [guideoe, guideio, local, nze]
+
     steps:
       - uses: actions/checkout@v4
 
@@ -20,16 +24,18 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-          cd epg
-          for f in guideoe guideio local nze; do
-            python3 scripts/index.py "$f.xml" "scripts/main/$f.txt" \
-              action@github.com "GitHub Action"
-          done
-          gzip -9f *.xml
+      - working-directory: epg
+        run: |
+          python3 scripts/index.py \
+            "${{ matrix.file }}.xml" \
+            "scripts/main/${{ matrix.file }}.txt" \
+            action@github.com "GitHub Action"
+
+          gzip -9f "${{ matrix.file }}.xml"
 
       - run: |
-          git add .
+          git add epg/${{ matrix.file }}.xml.gz
           git diff --cached --quiet || {
-            git commit -m "Auto Update EPG"
+            git commit -m "Update ${{ matrix.file }}"
             git push
           }
