@@ -39,3 +39,18 @@ https://www.open-epg.com/files/sports4.xml
 
 sports5.xml
 https://www.open-epg.com/files/sports5.xml
+
+argentina1.xml
+https://iptv-epg.org/files/epg-ar.xml
+
+argentina2.xml
+https://www.open-epg.com/files/argentina.xml
+
+canada1.xml
+https://www.open-epg.com/files/canada.xml
+
+canada2.xml
+https://iptv-epg.org/files/epg-ca.xml
+
+unitedstate.xml
+https://iptv-epg.org/files/epg-us.xml
