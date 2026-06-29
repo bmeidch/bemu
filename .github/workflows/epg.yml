@@ -72,7 +72,7 @@ jobs:
 
       - name: Git Config
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name "Rejopa"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Commit & Push
