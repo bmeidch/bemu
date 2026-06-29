@@ -1,6 +1,7 @@
 #!/bin/bash
 set -Eeuo pipefail
 
+# Berpindah ke repositori iptv-org-epg
 cd "$GITHUB_WORKSPACE/iptv-org-epg"
 
 # Install dependencies
@@ -10,22 +11,25 @@ else
     npm install --prefer-offline --no-audit --fund=false
 fi
 
-OUTPUT="../epg"
-
+# PERBAIKAN JALUR: Disesuaikan dengan folder target epg/files/ di GitHub Actions
+OUTPUT="$GITHUB_WORKSPACE/epg/files"
 mkdir -p "$OUTPUT"
 
+# Optimasi fungsi kompresi (gzip otomatis menghapus file XML asli)
 compress() {
     local file="$1"
-
-    gzip -kf9 "$file"
-    rm -f "$file"
+    if [[ -f "$file" ]]; then
+        gzip -f9 "$file"
+    else
+        echo "Peringatan: Berkas $file tidak ditemukan untuk dikompresi."
+    fi
 }
 
 case "${1:-}" in
 
 aio)
     npm run grab -- \
-        --channels="$OUTPUT/aiochannels.xml" \
+        --channels="$GITHUB_WORKSPACE/epg/scripts/aiochannels.xml" \
         --output="$OUTPUT/aioepg.xml" \
         --days=2 \
         --maxConnections=10
