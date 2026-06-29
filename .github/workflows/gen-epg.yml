@@ -33,19 +33,19 @@ jobs:
           echo "::group::Generate ${{ matrix.file }}"
 
           python3 -X dev scripts/index.py \
-            "scripts/main/${{ matrix.file }}.xml" \
+            "${{ matrix.file }}.xml" \
             "scripts/main/${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 
-          gzip -9f "epg/files/${{ matrix.file }}.xml"
+          gzip -9f "${{ matrix.file }}.xml"
 
           echo "::endgroup::"
 
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.file }}
-          path: epg/files/${{ matrix.file }}.xml.gz
+          path: epg/${{ matrix.file }}.xml.gz
 
   publish:
     needs: generate
@@ -62,20 +62,12 @@ jobs:
       - name: Copy files
         run: cp artifacts/*.gz epg/
 
-      # Commit & Push
       - name: Commit & Push
         shell: bash
         run: |
           git config user.name "Rejopa"
           git config user.email "action@github.com"
 
-          git add epg/files/*.gz
-          
-          # Mengecek apakah ada perubahan yang siap di-commit
-          if git diff --staged --quiet; then
-            echo "Tidak ada perubahan pada EPG. Lewati commit."
-          else
-            git commit -m "Auto Update EPG [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-          fi
+          git add epg/*.gz
+          git commit -m "Auto Update EPG"
+          git push
