@@ -34,7 +34,7 @@ jobs:
 
           python3 -X dev scripts/index.py \
             "${{ matrix.file }}.xml" \
-            "scripts/main/${{ matrix.file }}.txt" \
+            "scripts/${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 

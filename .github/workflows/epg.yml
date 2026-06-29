@@ -2,7 +2,7 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: 0 */4 * * *
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -24,17 +24,18 @@ jobs:
           - dens        
 
     steps:
+      # Mengubah ke v4 karena v6 belum tersedia
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Checkout iptv-org/epg
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: iptv-org/epg
           path: iptv-org-epg
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
@@ -45,8 +46,9 @@ jobs:
           chmod +x epg/scripts/epg-id.sh
           bash epg/scripts/epg-id.sh "${{ matrix.job }}"
 
+      # Mengubah ke v4
       - name: Upload Artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
           name: epg-${{ matrix.job }}
           path: epg/*.gz
@@ -58,10 +60,11 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
+      # Mengubah ke v4
       - name: Download Artifacts
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v4
         with:
           path: artifacts
 
@@ -70,13 +73,20 @@ jobs:
           mkdir -p epg
           find artifacts -name "*.gz" -exec cp {} epg/ \;
 
+      # Mengonfigurasi Git dengan benar
       - name: Git Config
         run: |
           git config user.name "Rejopa"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      # Aman dari error jika tidak ada perubahan berkas, dan aman dari konflik push
       - name: Commit & Push
         run: |
           git add epg/
-          git commit -m "Update EPG"
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan pada EPG. Melewati commit."
+          else
+            git commit -m "Update EPG [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
