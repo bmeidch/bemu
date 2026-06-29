@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        file: [guideoe, guideio, local, nze]
+        file: [guideoe, local, nze]
 
     steps:
       - uses: actions/checkout@v4
