@@ -34,7 +34,7 @@ jobs:
 
           python3 -X dev scripts/index.py \
             "${{ matrix.file }}.xml" \
-            "scripts/${{ matrix.file }}.txt" \
+            "${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 
@@ -62,6 +62,7 @@ jobs:
       - name: Copy files
         run: cp artifacts/*.gz epg/
 
+      # Commit & Push
       - name: Commit & Push
         shell: bash
         run: |
@@ -69,5 +70,12 @@ jobs:
           git config user.email "action@github.com"
 
           git add epg/*.gz
-          git commit -m "Auto Update EPG"
-          git push
+          
+          # Mengecek apakah ada perubahan yang siap di-commit
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan pada EPG. Lewati commit."
+          else
+            git commit -m "Auto Update EPG [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
