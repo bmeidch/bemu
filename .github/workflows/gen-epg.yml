@@ -38,7 +38,7 @@ jobs:
             action@github.com \
             "GitHub Action"
 
-          gzip -9f "files/${{ matrix.file }}.xml"
+          gzip -9f "epg/files/${{ matrix.file }}.xml"
 
           echo "::endgroup::"
 
