@@ -1,0 +1,14 @@
+unitedkingdom2.xml
+https://www.open-epg.com/files/unitedkingdom.xml
+
+Switzerland2.xml
+https://www.open-epg.com/files/switzerland2.xml
+
+romania2.xml
+https://www.open-epg.com/files/romania2.xml
+
+germany.xml
+https://www.open-epg.com/files/germany.xml
+
+belgium.xml
+https://www.open-epg.com/files/belgium.xml
