@@ -33,8 +33,8 @@ jobs:
           echo "::group::Generate ${{ matrix.file }}"
 
           python3 -X dev scripts/index.py \
-            "files/${{ matrix.file }}.xml" \
-            "files/${{ matrix.file }}.txt" \
+            "main/${{ matrix.file }}.xml" \
+            "main/${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 
