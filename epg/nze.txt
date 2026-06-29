@@ -1,0 +1,8 @@
+allepg.xml
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/all/epg.xml
+
+PlutoTV.xml
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml
+
+SamsungTVPlus.xml
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/SamsungTVPlus/all.xml
