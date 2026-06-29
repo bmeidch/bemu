@@ -58,16 +58,19 @@ jobs:
         with:
           path: artifacts
           merge-multiple: true
-
+     
       - name: Copy files
-        run: cp artifacts/*.gz epg/
+        run: |
+          mkdir -p epg/files
+          cp artifacts/*.gz epg/files/
 
       - name: Commit & Push
         shell: bash
         run: |
           git config user.name "Rejopa"
           git config user.email "action@github.com"
-
-          git add epg/*.gz
+          
+          git add epg/files/*.gz
           git commit -m "Auto Update EPG"
-          git push
+          git pull --rebase origin main
+          git push origin main
