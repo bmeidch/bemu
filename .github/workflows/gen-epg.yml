@@ -65,15 +65,9 @@ jobs:
       - name: Commit & Push
         shell: bash
         run: |
-          git config user.name "GitHub Action"
+          git config user.name "Rejopa"
           git config user.email "action@github.com"
 
           git add epg/*.gz
-
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-
           git commit -m "Auto Update EPG"
           git push
