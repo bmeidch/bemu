@@ -33,19 +33,19 @@ jobs:
           echo "::group::Generate ${{ matrix.file }}"
 
           python3 -X dev scripts/index.py \
-            "${{ matrix.file }}.xml" \
-            "${{ matrix.file }}.txt" \
+            "files/${{ matrix.file }}.xml" \
+            "files/${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 
-          gzip -9f "${{ matrix.file }}.xml"
+          gzip -9f "files/${{ matrix.file }}.xml"
 
           echo "::endgroup::"
 
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.file }}
-          path: epg/${{ matrix.file }}.xml.gz
+          path: epg/files/${{ matrix.file }}.xml.gz
 
   publish:
     needs: generate
