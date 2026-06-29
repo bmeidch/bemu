@@ -4,9 +4,6 @@ https://iptv-epg.org/files/epg-be.xml
 france.xml
 https://iptv-epg.org/files/epg-fr.xml
 
-germany.xml
-https://iptv-epg.org/files/epg-de.xml
-
 italy.xml
 https://iptv-epg.org/files/epg-it.xml
 
@@ -19,11 +16,8 @@ https://iptv-epg.org/files/epg-pt.xml
 romania.xml
 https://iptv-epg.org/files/epg-ro.xml
 
-Switzerland.xml
-https://iptv-epg.org/files/epg-ch.xml
-
 spain.xml
 https://iptv-epg.org/files/epg-es.xml
 
-unitedkingdom.xml
-https://iptv-epg.org/files/epg-gb.xml
+argentina1.xml
+https://iptv-epg.org/files/epg-ar.xml
