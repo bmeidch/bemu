@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-# EPG Merger (Optimized v3.0 - Low Memory & High Speed)
-# Original: @thefirefox12537
+# EPG Merger (Optimized v3.1 - Low Memory & High Speed)
+# Original: @thefirefox12537 | Fixed for General Workflow
 
 import glob
 import os
-import re
 import sys
 import shutil
 import traceback
@@ -30,7 +29,7 @@ tmpdir = os.path.join("..", "tmp")
 # HTTP Session (Connection Pool)
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "EPG Merger/3.0"
+    "User-Agent": "EPG Merger/3.1"
 })
 
 # ----------------------------------------------------
@@ -41,19 +40,29 @@ def load_mappings():
     """Membaca semua file mapping (.txt) sekali saja di awal untuk menghemat I/O"""
     mappings = {}
     files = glob.glob(os.path.join(tmpdir, "*.xml"))
+    
+    source_dir = os.path.dirname(os.path.abspath(source))
+
     for file in files:
-        base_name = os.path.basename(file)
-        epgid_path = os.path.join(os.path.dirname(source), base_name + ".txt")
+        base_name = os.path.basename(file)    # Contoh: 'vidio.xml'
+        name_only, _ = os.path.splitext(base_name) # Menjadi: 'vidio'
+        
+        # PERBAIKAN: Mencari 'vidio.txt', bukan 'vidio.xml.txt'
+        epgid_path = os.path.join(source_dir, name_only + ".txt")
         
         mappings[base_name] = {}
         if os.path.exists(epgid_path):
+            print(f"[MAP ] Loading mapping from: {os.path.basename(epgid_path)}")
             with open(epgid_path, encoding="utf-8") as f:
                 for line in f:
                     line = line.strip()
                     if not line or "," not in line:
                         continue
                     old, new = line.split(",", 1)
-                    mappings[base_name][old] = new
+                    mappings[base_name][old.strip()] = new.strip()
+        else:
+            print(f"[WARN] Mapping file not found: {os.path.basename(epgid_path)} (Skipping map)")
+            
     return mappings
 
 # ----------------------------------------------------
@@ -94,6 +103,10 @@ def stream_merge(output_file, mappings):
     
     files = sorted(glob.glob(os.path.join(tmpdir, "*.xml")))
     
+    if not files:
+        print("[ERROR] No XML files found to merge.")
+        return
+
     # Buka file output dalam mode streaming writer
     with et.xmlfile(output_file, encoding="UTF-8") as xf:
         xf.write_declaration()
@@ -140,7 +153,7 @@ def stream_merge(output_file, mappings):
                 del context
 
 # ----------------------------------------------------
-# Main Worklow
+# Main Workflow
 # ----------------------------------------------------
 
 def main():
