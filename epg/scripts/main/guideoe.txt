@@ -34,20 +34,11 @@ https://www.open-epg.com/files/unitedkingdom.xml
 sports1.xml
 https://www.open-epg.com/files/sports1.xml
 
-argentina1.xml
-https://iptv-epg.org/files/epg-ar.xml
-
 argentina2.xml
 https://www.open-epg.com/files/argentina.xml
 
-canada1.xml
+canada.xml
 https://www.open-epg.com/files/canada.xml
-
-canada2.xml
-https://iptv-epg.org/files/epg-ca.xml
-
-unitedstate.xml
-https://iptv-epg.org/files/epg-us.xml
 
 sports4.xml
 https://www.open-epg.com/files/sports4.xml
