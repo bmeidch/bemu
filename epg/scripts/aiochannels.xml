@@ -439,7 +439,7 @@
   <channel site="singtel.com" site_id="5537" lang="en" xmltv_id="BRTVInternationalChannel.cn@SD">BRTV International</channel>
   <channel site="singtel.com" site_id="5580" lang="en" xmltv_id="CCM.hk@SD">CCM</channel>
   <channel site="singtel.com" site_id="5555" lang="en" xmltv_id="CCTV4Asia.cn@SD">CCTV-4 (HD)</channel>
-   <channel site="singtel.com" site_id="5585" lang="en" xmltv_id="CelestialMovies.hk@SD">Celestial Movies (HD)</channel>
+  <channel site="singtel.com" site_id="5585" lang="en" xmltv_id="CelestialMovies.hk@SD">Celestial Movies (HD)</channel>
   <channel site="singtel.com" site_id="5155" lang="en" xmltv_id="CGTN.cn@SD">CGTN</channel>
   <channel site="singtel.com" site_id="5211" lang="en" xmltv_id="CGTNDocumentary.cn@SD">CGTN-Documentary</channel>
   <channel site="singtel.com" site_id="5002" lang="en" xmltv_id="Channel5.sg@SD">Ch 5 (HD)</channel>
@@ -475,7 +475,7 @@
   <channel site="singtel.com" site_id="6516" lang="en" xmltv_id="TVBSNews.tw@SD">TVBS News</channel>
   <channel site="singtel.com" site_id="5517" lang="en" xmltv_id="TVBXingHe.hk@SD">TVB Xing He (HD)</channel>
   <channel site="singtel.com" site_id="5005" lang="en" xmltv_id="Vasantham.sg@SD">Vasantham (HD)</channel>
-  <channel site="singtel.com" site_id="5268" lang="en" xmltv_id="WakuWakuJapanSouthEastAsia.jp@SD">WAKUWAKU JAPAN (HD) (Mandarin)</channel
+  <channel site="singtel.com" site_id="5268" lang="en" xmltv_id="WakuWakuJapanSouthEastAsia.jp@SD">WAKUWAKU JAPAN (HD) (Mandarin)</channel>
   <channel site="mewatch.sg" site_id="558112" lang="en" xmltv_id="">W-Sport</channel>
   <channel site="mewatch.sg" site_id="569790" lang="en" xmltv_id="">Astro Sensasi HD</channel>
   <channel site="mewatch.sg" site_id="572051" lang="en" xmltv_id="CCM.hk@SD">CCM</channel>
