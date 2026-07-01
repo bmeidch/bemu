@@ -3,6 +3,11 @@ name: Update EPG
 on:
   schedule:
     - cron: "0 */12 * * *"
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
 jobs:
   update-epg:
     runs-on: ubuntu-latest
@@ -17,6 +22,13 @@ jobs:
           repository: iptv-org/epg
           path: iptv-org-epg
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: iptv-org-epg/package.json
+
       - name: Update EPG
         run: bash epg/scripts/epg-id.sh
 
@@ -28,5 +40,10 @@ jobs:
       - name: Commit and Push
         run: |
           git add epg/files/
-          git commit -m "Update EPG"
-          git push origin main
+          # Memeriksa apakah ada file baru (.xz / .gz) di folder epg/files/
+          if [ -n "$(git status --porcelain epg/files/)" ]; then
+            git commit -m "Update EPG"
+            git push origin main
+          else
+            echo "Tidak ada perubahan data EPG baru. Melewati proses commit."
+          fi
