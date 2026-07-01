@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd iptv-org-epg || exit 1
-npm install
+npm ci
 
 npm run grab -- --channels=../epg/scripts/aiochannels.xml --output=../epg/files/aioepg.xml --days=2 --maxConnections=10
 npm run grab -- --sites=maxstream.tv --output=../epg/files/id-mxs.xml --days=2 --maxConnections=10
@@ -11,9 +11,5 @@ npm run grab -- --sites=cubmu.com --output=../epg/files/id-cm.xml --days=2 --max
 npm run grab -- --sites=dens.tv --output=../epg/files/id-ds.xml --days=2 --maxConnections=10
 
 cd ../epg/files || exit 1
-
-# Kompresi file menjadi .xz dan .gz, lalu hapus file .xml mentah
-xz -kf9 *.xml && gzip -kf9 *.xml
-rm -f *.xml
-
+gzip -f9 *.xml
 exit 0
