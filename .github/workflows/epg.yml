@@ -2,28 +2,18 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update-epg:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        job:
-          - aio
-          - maxstream
-          - visionplus
-          - vidio
-          - cubmu
-          - dens        
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Checkout iptv-org/epg
@@ -32,54 +22,16 @@ jobs:
           repository: iptv-org/epg
           path: iptv-org-epg
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: iptv-org-epg/package-lock.json
+      - name: Update EPG
+        run: bash epg/scripts/epg-id.sh
 
-      - name: Generate EPG
-        run: |
-          chmod +x epg/scripts/epg-id.sh
-          bash epg/scripts/epg-id.sh "${{ matrix.job }}"
-
-      # DISESUAIKAN: Mengambil berkas dari epg/files/ jika skrip Anda menaruhnya di sana
-      # Jika skrip Anda menaruhnya di epg/, ubah bagian path ini menjadi epg/*.gz
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: epg-${{ matrix.job }}
-          path: epg/files/*.gz
-          if-no-files-found: ignore
-
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Download Artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: artifacts
-
-      # PERBAIKAN: Sekarang menyalin dan menaruh berkas dengan benar ke epg/files/
-      - name: Copy Files
-        run: |
-          mkdir -p epg/files
-          find artifacts -name "*.gz" -exec cp {} epg/files/ \;
-
-      - name: Git Config
+      - name: Configure Git
         run: |
           git config user.name "Rejopa"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
-          git add epg/        
-            git commit -m "Update EPG [skip ci]"
-            git pull --rebase origin main
-            git push origin main
+          git add epg/
+          git commit -m "Update EPG"
+          git push origin main
