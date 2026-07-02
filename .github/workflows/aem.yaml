@@ -2,7 +2,7 @@ name: Automated EPG Manager
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * `"
   workflow_dispatch:
 
 permissions:
@@ -34,8 +34,10 @@ jobs:
 
           echo "::group::Generate ${{ matrix.file }}"
           
+          # Membuat folder files jika belum ada
           mkdir -p files
 
+          # Menyimpan hasil langsung ke dalam folder files
           python3 -X dev scripts/index.py \
             "files/${{ matrix.file }}.xml" \
             "scripts/main/${{ matrix.file }}.txt" \
@@ -48,6 +50,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.file }}
+          # Unggah langsung dari folder files
           path: epg/files/${{ matrix.file }}.xml.gz
 
   # ==========================================
@@ -95,20 +98,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Unduh semua artefak langsung ke root pekerjaan agar struktur epg/files/ kembali dengan tepat
       - name: Download All EPG Artifacts
         uses: actions/download-artifact@v4
         with:
           path: .
           merge-multiple: true
 
+      # Satukan semua perubahan dan Push ke GitHub
       - name: Commit & Push Changes
         shell: bash
         run: |
           git config user.name "Rejopa"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
+          # Gunakan flag -f (force) untuk memastikan file .gz / .xml tidak terblokir oleh .gitignore
           git add -f epg/files/        
           
+          # Menghindari error jika tidak ada perubahan baru yang perlu dicommit
           git diff-index --quiet HEAD || git commit -m "Auto Update EPG (Custom & External)"
           git pull --rebase origin main
           git push origin main
