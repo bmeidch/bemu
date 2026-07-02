@@ -1,0 +1,96 @@
+name: Automated EPG Manager
+
+on:
+  schedule:
+    # Berjalan setiap 6 jam sekali (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg
+  cancel-in-progress: true
+
+jobs:
+  generate-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # 1. CHECKOUT REPOSITORI
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout iptv-org/epg
+        uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          path: iptv-org-epg
+
+      # 2. SETUP LINGKUNGAN (PYTHON & NODE.JS)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: iptv-org-epg/package-lock.json
+
+      # 3. EKSEKUSI SCRIPT PYTHON (CUSTOM EPG)
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml requests
+
+      - name: Generate Custom EPG
+        working-directory: epg
+        run: |
+          set -e
+          mkdir -p files
+
+          python scripts/index.py files/bgoe.xml scripts/main/bgoe.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/guideoe.xml scripts/main/guideoe.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
+
+          # Bersihkan file .gz lama lalu kompres yang baru
+          rm -f files/*.gz
+          gzip -9f files/guide.xml
+          gzip -9f files/local.xml
+          gzip -9f files/nze.xml
+
+      # 4. EKSEKUSI SCRIPT NODE.JS (EXTERNAL EPG)
+      - name: Install Node dependencies
+        run: |
+          cd iptv-org-epg
+          npm ci
+
+      - name: Update External EPG
+        run: bash epg/scripts/epg-id.sh
+
+      # 5. KONSOLIDASI & PUSH KE GIT (SINGLE COMMIT)
+      - name: Configure Git
+        run: |
+          git config user.name "Rejopa"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and Push Changes
+        run: |
+          # Paksa Git mendeteksi folder files
+          git add -f epg/files/
+          
+          if [ -n "$(git status --porcelain epg/files/)" ]; then
+            git commit -m "Auto Update EPG (Custom & External) $(date -u +'%Y-%m-%d %H:%M UTC')"
+            
+            # Strategi -X theirs memastikan file baru Anda selalu menang jika ada konflik remote
+            git pull --rebase -X theirs origin main
+            git push origin main
+          else
+            echo "Tidak ada perubahan data EPG baru. Melewati proses commit."
+          fi
