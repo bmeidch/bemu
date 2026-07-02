@@ -2,8 +2,7 @@ name: Generate EPG
 
 on:
   schedule:
-    # Berjalan setiap 6 jam sekali (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: "0 */6 * * *"
+   - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,14 +20,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
+        
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
-          # Cache dinonaktifkan sementara untuk mencegah error jika file requirements.txt tidak ada
 
       - name: Configure Git
         run: |
@@ -45,25 +41,20 @@ jobs:
         run: |
           set -e
           
-          # Memastikan folder files tersedia
           mkdir -p files
 
-          # Mengarahkan output file xml ke dalam folder files/
           python scripts/index.py files/guide.xml scripts/main/main.txt "Rejopa" "GitHub Action"
           python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
           python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
 
-          # Hapus file gz lama (opsional, untuk memastikan timpa bersih)
           rm -f files/*.gz
 
-          # Kompresi file xml yang sudah ada di dalam folder files/
           gzip -9f files/guide.xml
           gzip -9f files/local.xml
           gzip -9f files/nze.xml
 
       - name: Commit changes
         run: |
-          # Memaksa penambahan file di dalam folder files
           git add -f epg/files/*.gz
           git add epg/files/
 
