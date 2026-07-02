@@ -3,6 +3,6 @@
 
 🙂 🙂 🙂
 
-[![Update EPG](https://github.com/bmeidch/bemu/actions/workflows/epg.yml/badge.svg)](https://github.com/bmeidch/bemu/actions/workflows/epg.yml)
+[![Update EPG](https://github.com/bmeidch/bemu/actions/workflows/aem.yml/badge.svg)](https://github.com/bmeidch/bemu/actions/workflows/aem.yml)
 
 🙂 🙂 🙂
