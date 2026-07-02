@@ -117,7 +117,6 @@
   <channel site="cubmu.com" site_id="281" lang="id" xmltv_id="">Song TV</channel>
   <channel site="cubmu.com" site_id="238" lang="id" xmltv_id="ABCAustralia.au@SD">ABC Australia</channel>
   <channel site="cubmu.com" site_id="197" lang="id" xmltv_id="AlJazeera.qa@Arabic">Al Jazeera</channel>
-  <channel site="cubmu.com" site_id="204" lang="id" xmltv_id="AlQuranAlKareemTV.sa@SD">Al Quran Al Kareem</channel>
   <channel site="cubmu.com" site_id="364" lang="id" xmltv_id="ANTV.id@SD">ANTV</channel>
   <channel site="cubmu.com" site_id="261" lang="id" xmltv_id="ArirangTV.kr@SD">Arirang</channel>
   <channel site="cubmu.com" site_id="214" lang="id" xmltv_id="BeritaSatu.id@SD">Berita Satu</channel>
@@ -141,36 +140,27 @@
   <channel site="cubmu.com" site_id="265" lang="id" xmltv_id="DuniaLain.id@SD">Dunia Lain</channel>
   <channel site="cubmu.com" site_id="208" lang="id" xmltv_id="EatNGo.id@SD">Eat N Go</channel>
   <channel site="cubmu.com" site_id="199" lang="id" xmltv_id="EuronewsEnglish.fr@SD">Euronews</channel>
-  <channel site="cubmu.com" site_id="196" lang="id" xmltv_id="FashionTVAsia.fr@SD">Fashion TV</channel>
   <channel site="cubmu.com" site_id="256" lang="id" xmltv_id="Fight.us@SD">Fight TV Premium</channel>
   <channel site="cubmu.com" site_id="258" lang="id" xmltv_id="France24.fr@English">France 24</channel>
   <channel site="cubmu.com" site_id="219" lang="id" xmltv_id="GarudaTV.id@SD">Garuda TV</channel>
-  <channel site="cubmu.com" site_id="218" lang="id" xmltv_id="GTV.id@SD">GTV</channel>
-  <channel site="cubmu.com" site_id="216" lang="id" xmltv_id="Indosiar.id@SD">Indosiar</channel>
   <channel site="cubmu.com" site_id="243" lang="id" xmltv_id="JakTV.id@SD">JakTV</channel>
   <channel site="cubmu.com" site_id="284" lang="id" xmltv_id="JTV.id@SD">jtv</channel>
   <channel site="cubmu.com" site_id="200" lang="id" xmltv_id="Khazanah.id@SD">Khazanah</channel>
   <channel site="cubmu.com" site_id="220" lang="id" xmltv_id="KompasTV.id@SD">Kompas TV</channel>
   <channel site="cubmu.com" site_id="221" lang="id" xmltv_id="MDTV.id@HD">MDTV</channel>
   <channel site="cubmu.com" site_id="211" lang="id" xmltv_id="MetroTV.id@SD">MetroTV</channel>
-  <channel site="cubmu.com" site_id="222" lang="id" xmltv_id="MNCTV.id@SD">MNC TV</channel>
   <channel site="cubmu.com" site_id="195" lang="id" xmltv_id="MusikIndonesia.id@SD">Musik Indonesia</channel>
-  <channel site="cubmu.com" site_id="240" lang="id" xmltv_id="NabawiTV.id@SD">Nabawi TV</channel>
   <channel site="cubmu.com" site_id="236" lang="id" xmltv_id="NHKWorldPremium.jp@SD">NHK World Premium</channel>
   <channel site="cubmu.com" site_id="263" lang="id" xmltv_id="nsert.id@SD">!nsert</channel>
   <channel site="cubmu.com" site_id="268" lang="id" xmltv_id="OneTV.in@SD">One TV</channel>
   <channel site="cubmu.com" site_id="242" lang="id" xmltv_id="PijarTV.id@SD">Pijar TV</channel>
-  <channel site="cubmu.com" site_id="257" lang="id" xmltv_id="PSJTV.id@SD">PSJ TV</channel>
   <channel site="cubmu.com" site_id="246" lang="id" xmltv_id="RajawaliTV.id@SD">Rtv</channel>
-  <channel site="cubmu.com" site_id="217" lang="id" xmltv_id="RCTI.id@SD">RCTI</channel>
   <channel site="cubmu.com" site_id="260" lang="id" xmltv_id="RT.ru@SD">Russia Today</channel>
-  <channel site="cubmu.com" site_id="215" lang="id" xmltv_id="SCTV.id@SD">SCTV</channel>
   <channel site="cubmu.com" site_id="251" lang="id" xmltv_id="SuperyachtTV.mc@SD">Superyacht TV</channel>
   <channel site="cubmu.com" site_id="232" lang="id" xmltv_id="Thrill.hk@SD">Thrill</channel>
   <channel site="cubmu.com" site_id="201" lang="id" xmltv_id="Trans7.id@SD">Trans 7</channel>
   <channel site="cubmu.com" site_id="210" lang="id" xmltv_id="TransTV.id@SD">Trans TV</channel>
   <channel site="cubmu.com" site_id="267" lang="id" xmltv_id="TV5MondeAsia.fr@SD">TV5 Monde</channel>
-  <channel site="cubmu.com" site_id="187" lang="id" xmltv_id="TVMu.id@SD">tvMU</channel>
   <channel site="cubmu.com" site_id="194" lang="id" xmltv_id="tvNAsia.hk@SD">tVN</channel>
   <channel site="cubmu.com" site_id="227" lang="id" xmltv_id="tvNMoviesAsia.hk@SD">TVN Movies</channel>
   <channel site="cubmu.com" site_id="363" lang="id" xmltv_id="tvOne.id@SD">TVOne</channel>
@@ -283,16 +273,12 @@
   <channel site="visionplus.id" site_id="00000000000000000054" lang="id" xmltv_id="StudioUniversalLatinAmerica.us@Brazil">Studio Universal</channel>
   <channel site="visionplus.id" site_id="00000000000000000041" lang="id" xmltv_id="Thrill.hk@SD">Thrill</channel>
   <channel site="visionplus.id" site_id="00000000000000000148" lang="id" xmltv_id="TRTWorld.tr@SD">TRT World</channel>
-  <channel site="visionplus.id" site_id="00000000000000000163" lang="id" xmltv_id="TV5MondeAsia.fr@SD">TV5Monde</channel>
   <channel site="visionplus.id" site_id="00000000000000000073" lang="id" xmltv_id="tvNAsia.hk@SD">TVN</channel>
   <channel site="visionplus.id" site_id="00000000000000000046" lang="id" xmltv_id="tvNMoviesAsia.hk@SD">TVN Movies</channel>
   <channel site="visionplus.id" site_id="00000000000000000087" lang="id" xmltv_id="VisionPrime.id@SD">Vision Prime</channel>
   <channel site="visionplus.id" site_id="00000000000000000158" lang="id" xmltv_id="XingKongChina.cn@SD">Xing kong TV</channel>
   <channel site="visionplus.id" site_id="00000000000000000047" lang="id" xmltv_id="ZeeBioskop.id@SD">Zee Bioskop</channel>
   <channel site="visionplus.id" site_id="00000000000000000063" lang="id" xmltv_id="ZooMoo.sg@SD">Zoo Moo</channel>
-  <channel site="vidio.com" site_id="7619" lang="id" xmltv_id="">MUSICA</channel>
-  <channel site="vidio.com" site_id="18105" lang="id" xmltv_id="">GGS TV</channel>
-  <channel site="vidio.com" site_id="21178" lang="id" xmltv_id="">Voli TV 2</channel>
   <channel site="vidio.com" site_id="20216" lang="id" xmltv_id="ChampionsFight.id@HD">Champions Fight</channel>
   <channel site="vidio.com" site_id="18189" lang="id" xmltv_id="ChampionsGolf1.id@HD">Champions Golf 1</channel>
   <channel site="vidio.com" site_id="18190" lang="id" xmltv_id="ChampionsGolf2.id@HD">Champions Golf 2</channel>
@@ -303,8 +289,6 @@
   <channel site="vidio.com" site_id="9183" lang="id" xmltv_id="ChampionsTV6.id@SD">Champions TV 6</channel>
   <channel site="vidio.com" site_id="9353" lang="id" xmltv_id="ChampionsTVEPL.id@SD">Premier League TV</channel>
   <channel site="vidio.com" site_id="21179" lang="id" xmltv_id="CitraDrama.id@SD">Citra Drama</channel>
-  <channel site="vidio.com" site_id="18622" lang="id" xmltv_id="DaystarTV.us@SD">Daystar TV</channel>
-  <channel site="vidio.com" site_id="12607" lang="id" xmltv_id="DMITV.id@SD">DMI TV</channel>
   <channel site="vidio.com" site_id="10975" lang="id" xmltv_id="ElshintaTV.id@SD">Elshinta TV</channel>
   <channel site="vidio.com" site_id="6412" lang="id" xmltv_id="EuronewsEnglish.fr@SD">Euronews</channel>
   <channel site="vidio.com" site_id="7052" lang="id" xmltv_id="HipHipHoree.id@SD">Hip Hip Horee!</channel>
@@ -312,8 +296,7 @@
   <channel site="vidio.com" site_id="205" lang="id" xmltv_id="Indosiar.id@SD">Indosiar</channel>
   <channel site="vidio.com" site_id="8237" lang="id" xmltv_id="MentariTV.id@SD">Mentari TV</channel>
   <channel site="vidio.com" site_id="206" lang="id" xmltv_id="Moji.id@SD">Moji</channel>
-  <channel site="vidio.com" site_id="7432" lang="id" xmltv_id="NusantaraTV.id@SD">mentar</channel>
-  <channel site="vidio.com" site_id="17278" lang="id" xmltv_id="TV5MondeAsia.fr@SD">TV5Monde</channel>
+  <channel site="vidio.com" site_id="7432" lang="id" xmltv_id="NusantaraTV.id@SD">Nusantara TV</channel>
   <channel site="maxstream.tv" site_id="0_oyquzepi" lang="id" xmltv_id="AnimalPlanetSoutheastAsia.sg@SD">Animal Planet</channel>
   <channel site="maxstream.tv" site_id="0_86sal99e" lang="id" xmltv_id="AnimaxAsia.sg@SD">Animax</channel>
   <channel site="maxstream.tv" site_id="0_bidjh24z" lang="id" xmltv_id="AniplusAsia.sg@SD">Aniplus</channel>
@@ -356,10 +339,6 @@
   <channel site="maxstream.tv" site_id="0_anqaquwl" lang="id" xmltv_id="Galaxy.id@SD">Galaxy</channel>
   <channel site="maxstream.tv" site_id="0_menqjsva" lang="id" xmltv_id="GalaxyPremium.id@SD">Galaxy Premium</channel>
   <channel site="maxstream.tv" site_id="0_p7vlqu2a" lang="id" xmltv_id="GTV.id@SD">GTV</channel>
-  <channel site="maxstream.tv" site_id="0_xgdr0qbd" lang="id" xmltv_id="HBOAsia.sg@SD">HBO</channel>
-  <channel site="maxstream.tv" site_id="0_qqui53si" lang="id" xmltv_id="HBOFamilyAsia.sg@SD">HBO Family</channel>
-  <channel site="maxstream.tv" site_id="0_k7eh4erk" lang="id" xmltv_id="HBOHitsAsia.sg@SD">HBO Hits</channel>
-  <channel site="maxstream.tv" site_id="0_s6bo567h" lang="id" xmltv_id="HBOSignatureAsia.sg@SD">HBO Signature</channel>
   <channel site="maxstream.tv" site_id="0_uvp3wz05" lang="id" xmltv_id="HGTVAsia.us@SD">HGTV</channel>
   <channel site="maxstream.tv" site_id="0_k9r5lq30" lang="id" xmltv_id="HistoryAsia.us@SD">History</channel>
   <channel site="maxstream.tv" site_id="0_hd1c30bo" lang="id" xmltv_id="HITS.sg@SD">HITS</channel>
