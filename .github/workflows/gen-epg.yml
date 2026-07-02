@@ -54,7 +54,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Mengunduh langsung ke folder tujuan agar tidak perlu perintah 'mkdir' dan 'cp'
       - uses: actions/download-artifact@v4
         with:
           path: epg/files
