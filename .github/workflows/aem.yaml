@@ -116,10 +116,8 @@ jobs:
           git add -f epg/files/*.gz
           git add -f epg/files/
           
-          # Melakukan commit langsung tanpa periksa status update
           git commit -m "Auto Update EPG (Custom & External) - Forced Overwrite" --allow-empty
           
-          # Jika ada konflik saat pull, set strategi untuk selalu menggunakan file hasil artifact (theirs)
           git pull --rebase -X theirs origin main
           
           git push origin main
