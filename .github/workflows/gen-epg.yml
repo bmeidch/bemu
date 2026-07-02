@@ -54,16 +54,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Mengunduh langsung ke folder tujuan agar tidak perlu perintah 'mkdir' dan 'cp'
       - uses: actions/download-artifact@v4
         with:
-          path: artifacts
+          path: epg/files
           merge-multiple: true
-     
-      - name: Copy files
-        run: |
-          mkdir -p epg/files
-          cp artifacts/*.gz epg/files/
-
+      
       - name: Commit & Push
         shell: bash
         run: |
@@ -71,6 +67,12 @@ jobs:
           git config user.email "action@github.com"
           
           git add epg/files/*.gz
-          git commit -m "Auto Update EPG"
-          git pull --rebase origin main
-          git push origin main
+          
+          # PERBAIKAN: Cek apakah benar-benar ada perubahan file sebelum commit
+          if [ -n "$(git status --porcelain epg/files/)" ]; then
+            git commit -m "Auto Update EPG"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "Tidak ada perubahan data EPG baru. Melewati proses commit."
+          fi
