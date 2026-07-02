@@ -33,20 +33,22 @@ jobs:
           trap 'echo "::error::${{ matrix.file }} failed at line $LINENO: $BASH_COMMAND"' ERR
 
           echo "::group::Generate ${{ matrix.file }}"
+          
+          mkdir -p files
 
           python3 -X dev scripts/index.py \
-            "${{ matrix.file }}.xml" \
+            "files/${{ matrix.file }}.xml" \
             "scripts/main/${{ matrix.file }}.txt" \
             action@github.com \
             "GitHub Action"
 
-          gzip -9f "${{ matrix.file }}.xml"
+          gzip -9f "files/${{ matrix.file }}.xml"
           echo "::endgroup::"
 
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.file }}
-          path: epg/${{ matrix.file }}.xml.gz
+          path: epg/files/${{ matrix.file }}.xml.gz
 
   # ==========================================
   # JOB 2: UPDATE EXTERNAL EPG (NODE.JS)
@@ -76,13 +78,11 @@ jobs:
           npm ci
 
       - name: Run Update Script
-        # Pastikan jalur skrip ini sudah sesuai dengan struktur foldermu
         run: bash epg/scripts/epg-id.sh
 
       - uses: actions/upload-artifact@v4
         with:
           name: external-epg-files
-          # Mengunggah hasil folder epg/files jika skrip memodifikasi direktori tersebut
           path: epg/files/
 
   # ==========================================
@@ -95,29 +95,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 1. Unduh hasil dari Job Python (Matrix)
-      - name: Download Custom EPG Artifacts
+      - name: Download All EPG Artifacts
         uses: actions/download-artifact@v4
         with:
-          path: epg/files
+          path: .
           merge-multiple: true
 
-      # 2. Unduh hasil dari Job Node.js
-      - name: Download External EPG Artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: external-epg-files
-          path: epg/files
-
-      # 3. Satukan semua perubahan dan Push ke GitHub
       - name: Commit & Push Changes
         shell: bash
         run: |
           git config user.name "Rejopa"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add epg/files/        
-         
-            git commit -m "Auto Update EPG (Custom & External)"
-            git pull --rebase origin main
-            git push origin main         
+          git add -f epg/files/        
+          
+          git diff-index --quiet HEAD || git commit -m "Auto Update EPG (Custom & External)"
+          git pull --rebase origin main
+          git push origin main
