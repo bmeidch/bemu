@@ -43,13 +43,15 @@ jobs:
           
           mkdir -p files
 
-          python scripts/index.py files/guide.xml scripts/main/main.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/bgoe.xml scripts/main/bgoe.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/guideoe.xml scripts/main/guideoe.txt "Rejopa" "GitHub Action"
           python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
           python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
 
           rm -f files/*.gz
 
-          gzip -9f files/guide.xml
+          gzip -9f files/bgoe.xml
+          gzip -9f files/guideoe.xml
           gzip -9f files/local.xml
           gzip -9f files/nze.xml
 
