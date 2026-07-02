@@ -2,7 +2,8 @@ name: Generate EPG
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    # Berjalan setiap 6 jam sekali (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,8 +28,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: epg/requirements.txt
+          # Cache dinonaktifkan sementara untuk mencegah error jika file requirements.txt tidak ada
 
       - name: Configure Git
         run: |
@@ -38,26 +38,34 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-
           pip install lxml requests
-          
 
       - name: Generate EPG
-        working-directory: epg/files/
+        working-directory: epg
         run: |
           set -e
+          
+          # Memastikan folder files tersedia
+          mkdir -p files
 
-          python scripts/index.py guide.xml scripts/main/main.txt "Rejopa" "GitHub Action"
-          python scripts/index.py local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
-          python scripts/index.py nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
+          # Mengarahkan output file xml ke dalam folder files/
+          python scripts/index.py files/guide.xml scripts/main/main.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
 
-          gzip -9f guide.xml
-          gzip -9f local.xml
-          gzip -9f nze.xml
+          # Hapus file gz lama (opsional, untuk memastikan timpa bersih)
+          rm -f files/*.gz
+
+          # Kompresi file xml yang sudah ada di dalam folder files/
+          gzip -9f files/guide.xml
+          gzip -9f files/local.xml
+          gzip -9f files/nze.xml
 
       - name: Commit changes
         run: |
-          git add -A
+          # Memaksa penambahan file di dalam folder files
+          git add -f epg/files/*.gz
+          git add epg/files/
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
