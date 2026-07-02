@@ -445,7 +445,8 @@
   <channel site="singtel.com" site_id="5002" lang="en" xmltv_id="Channel5.sg@SD">Ch 5 (HD)</channel>
   <channel site="singtel.com" site_id="5003" lang="en" xmltv_id="Channel8.sg@SD">Ch 8 (HD)</channel>
   <channel site="singtel.com" site_id="5007" lang="en" xmltv_id="ChannelU.sg@SD">Ch U (HD)</channel>
-  <channel site="singtel.com" site_id="5538" lang="en" xmltv_id="ChinaMovieChannel.cn@SD">China Movie Channel</channel>
+  <channel site="singtel.com" site_id="5538" lang="en" xmltv_id="ChinaMovieChannel.cn@SD">China Movie Channel</channel>  
+  <channel site="singtel.com" site_id="6424" lang="en" xmltv_id="CinemaxAsia.sg@SD">CINEMAX (HD)</channel>
   <channel site="singtel.com" site_id="6692" lang="en" xmltv_id="CinemaOneGlobal.ph@SD">Cinema One Global</channel>
   <channel site="singtel.com" site_id="5006" lang="en" xmltv_id="CNA.sg@SD">CNA (HD)</channel>
   <channel site="singtel.com" site_id="5173" lang="en" xmltv_id="CNBCAsia.sg@SD">CNBC Asia HD</channel>
@@ -459,6 +460,10 @@
   <channel site="singtel.com" site_id="5041" lang="en" xmltv_id="France24.fr@English">France 24 (English)</channel>
   <channel site="singtel.com" site_id="5040" lang="en" xmltv_id="France24.fr@French">France 24 (French)</channel>
   <channel site="singtel.com" site_id="5212" lang="en" xmltv_id="GlobalTrekker.sg@SD">Global Trekker (HD)</channel>
+  <channel site="singtel.com" site_id="6420" lang="en" xmltv_id="HBOAsia.sg@SD">HBO HD</channel>
+  <channel site="singtel.com" site_id="6422" lang="en" xmltv_id="HBOFamilyAsia.sg@SD">HBO Family (HD)</channel>
+  <channel site="singtel.com" site_id="6423" lang="en" xmltv_id="HBOHitsAsia.sg@SD">HBO Hits (HD)</channel>
+  <channel site="singtel.com" site_id="6421" lang="en" xmltv_id="HBOSignatureAsia.sg@SD">HBO Signature (HD)</channel>
   <channel site="singtel.com" site_id="5250" lang="en" xmltv_id="HGTVAsia.us@SD">HGTV (HD)</channel>
   <channel site="singtel.com" site_id="5209" lang="en" xmltv_id="HistoryAsia.us@SD">HISTORY™ (HD)</channel>
   <channel site="singtel.com" site_id="5303" lang="en" xmltv_id="HITSNOW.sg@SD">HITS NOW (HD)</channel>
