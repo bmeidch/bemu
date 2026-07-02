@@ -29,6 +29,11 @@ jobs:
           cache: 'npm'
           cache-dependency-path: iptv-org-epg/package-lock.json
 
+      - name: Install dependencies
+        run: |
+          cd iptv-org-epg
+          npm ci
+
       - name: Update EPG
         run: bash epg/scripts/epg-id.sh
 
@@ -40,9 +45,10 @@ jobs:
       - name: Commit and Push
         run: |
           git add epg/files/
-          # Memeriksa apakah ada file baru (.xz / .gz) di folder epg/files/
+          
           if [ -n "$(git status --porcelain epg/files/)" ]; then
             git commit -m "Update EPG"
+            git pull --rebase origin main
             git push origin main
           else
             echo "Tidak ada perubahan data EPG baru. Melewati proses commit."
