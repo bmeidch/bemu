@@ -7,6 +7,8 @@
   <channel site="mi.tv" site_id="br#sportv3" lang="pt" xmltv_id="SporTV3.br@SD">SporTV3</channel>
   <channel site="mi.tv" site_id="br#sportv3-hd" lang="pt" xmltv_id="">SporTV3 HD</channel>
   <channel site="mi.tv" site_id="br#sportv-hd" lang="pt" xmltv_id="">SporTV HD</channel>
+  <channel site="gatotv.com" site_id="tudn_mexico" lang="es" xmltv_id="TUDN.mx@SD">Canal TUDN (México)</channel>
+  <channel site="gatotv.com" site_id="tudn_estados_unidos" lang="es" xmltv_id="TUDN.us@SD">Canal TUDN (Estados Unidos)</channel>
   <channel site="ipko.tv" site_id="supersport-1" lang="sq" xmltv_id="SuperSport1.al@SD">SuperSport 1</channel>
   <channel site="ipko.tv" site_id="supersport-2" lang="sq" xmltv_id="SuperSport2.al@SD">SuperSport 2</channel>
   <channel site="ipko.tv" site_id="supersport-3" lang="sq" xmltv_id="SuperSport3.al@SD">SuperSport 3</channel>
