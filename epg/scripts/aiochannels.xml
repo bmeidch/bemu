@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="mi.tv" site_id="mx#xh-gc-canal-5" lang="es" xmltv_id="Canal5.mx@SD">Canal 5</channel>
+  <channel site="zuragt.mn" site_id="suld_tv_mongolia" lang="mn" xmltv_id="SuldTV.mn@SD">Сүлд ТВ</channel>
+  <channel site="i.mjh.nz" site_id="Roku/all#141ee5cd661897880f825e9fe8062b5e" lang="en" xmltv_id="WKAQTV21.pr@HD">Telemundo Puerto Rico</channel>
   <channel site="i.mjh.nz" site_id="Roku/all#86c08261fc015a58866210bea63eb8f4" lang="en" xmltv_id="AlwaysFunnyVideos.us@SD">Always Funny Videos</channel> 
   <channel site="mi.tv" site_id="br#sportv" lang="pt" xmltv_id="SporTV.br@SD">SporTV</channel>
   <channel site="mi.tv" site_id="br#sportv2" lang="pt" xmltv_id="SporTV2.br@SD">SporTV2</channel>
