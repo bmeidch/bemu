@@ -37,7 +37,8 @@ async function main() {
     );
 
     const playlist = `#EXTM3U
-#EXTINF:-1 tvg-id="pijartv" tvg-name="Pijar TV" group-title="Indonesia",Pijar TV
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4000000
 ${selected.url}
 `;
 
