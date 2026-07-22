@@ -1,0 +1,8 @@
+{
+  "name": "pijartv-m3u",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "twitch-m3u8": "^1.1.5"
+  }
+}
