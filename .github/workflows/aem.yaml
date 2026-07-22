@@ -50,10 +50,10 @@ jobs:
           set -e
           mkdir -p files
 
-          python scripts/index.py files/bgoe.xml scripts/main/bgoe.txt "Rejopa" "GitHub Action"
-          python scripts/index.py files/guideoe.xml scripts/main/guideoe.txt "Rejopa" "GitHub Action"
-          python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "GitHub Action"
-          python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "GitHub Action"
+          python scripts/index.py files/bgoe.xml scripts/main/bgoe.txt "Rejopa" "robo-robo"
+          python scripts/index.py files/guideoe.xml scripts/main/guideoe.txt "Rejopa" "robo-robo"
+          python scripts/index.py files/local.xml scripts/main/local.txt "Rejopa" "robo-robo"
+          python scripts/index.py files/nze.xml scripts/main/nze.txt "Rejopa" "robo-robo"
 
       - name: Update External EPG & Compress All
         run: |
