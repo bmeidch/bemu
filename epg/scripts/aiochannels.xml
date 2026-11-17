@@ -503,7 +503,7 @@
   <channel site="movistarplus.es" site_id="DAZN3" lang="es" xmltv_id="">DAZN 3</channel>
   <channel site="movistarplus.es" site_id="DAZN4" lang="es" xmltv_id="">DAZN 4</channel>
   <channel site="movistarplus.es" site_id="DAZNL2" lang="es" xmltv_id="">DAZN LALIGA 2</channel>
-  <channel site="movistarplus.es" site_id="DAZNLI" lang="es" xmltv_id="">DAZN LALIGA</channel>>
+  <channel site="movistarplus.es" site_id="DAZNLI" lang="es" xmltv_id="">DAZN LALIGA</channel>
   <channel site="telenet.tv" site_id="11football" lang="nl" xmltv_id="">DAZN Eleven Sports 1</channel>
   <channel site="telenet.tv" site_id="11footbetv" lang="nl" xmltv_id="">DAZN Eleven Sports 1 FR</channel>
   <channel site="telenet.tv" site_id="11sports" lang="nl" xmltv_id="">DAZN Eleven Sports 2</channel>
