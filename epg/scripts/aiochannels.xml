@@ -486,15 +486,11 @@
   <channel site="mewatch.sg" site_id="556888" lang="en" xmltv_id="TraceSportStars.fr@HD">TRACE Sport Stars</channel>
   <channel site="mewatch.sg" site_id="572317" lang="en" xmltv_id="Vannathirai.sg@SD">Vannathirai</channel>
   <channel site="mewatch.sg" site_id="97096" lang="en" xmltv_id="Vasantham.sg@SD">Vasantham</channel>
-  <channel site="sky.com" site_id="1120" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
-  <channel site="sky.com" site_id="3625" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
-  <channel site="sky.com" site_id="3661" lang="en" xmltv_id="TNTSports1.uk@SD">TNT Sports 1</channel>
-  <channel site="sky.com" site_id="3627" lang="en" xmltv_id="TNTSports2.uk@HD">TNTSports2 HD</channel>
-  <channel site="sky.com" site_id="3663" lang="en" xmltv_id="TNTSports2.uk@SD">TNT Sports 2</channel>
-  <channel site="sky.com" site_id="3629" lang="en" xmltv_id="TNTSports3.uk@HD">TNTSports3 HD</channel>
-  <channel site="sky.com" site_id="5032" lang="en" xmltv_id="TNTSports3.uk@SD">TNT Sports 3</channel>
-  <channel site="sky.com" site_id="4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
-  <channel site="sky.com" site_id="3141" lang="en" xmltv_id="TNTSports4.uk@SD">TNT Sports 4</channel>
+  <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
+  <channel site="sky.com" site_id="GB#3625" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
+  <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="TNTSports2.uk@HD">TNTSports2 HD</channel>
+  <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="TNTSports3.uk@HD">TNTSports3 HD</channel>
+  <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
   <channel site="sky.com" site_id="DE#132" lang="de" xmltv_id="DAZN1.uk@GermanyHD">DAZN 1 HD</channel>
   <channel site="sky.com" site_id="DE#122" lang="de" xmltv_id="DAZN2.uk@GermanyHD">DAZN 2 HD</channel>
   <channel site="movistarplus.es" site_id="M1SD" lang="es" xmltv_id="">DAZN 1</channel>
