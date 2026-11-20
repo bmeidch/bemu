@@ -495,8 +495,8 @@
   <channel site="sky.com" site_id="5032" lang="en" xmltv_id="TNTSports3.uk@SD">TNT Sports 3</channel>
   <channel site="sky.com" site_id="4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
   <channel site="sky.com" site_id="3141" lang="en" xmltv_id="TNTSports4.uk@SD">TNT Sports 4</channel>
-  <channel site="sky.de" site_id="659" lang="de" xmltv_id="DAZN1.uk@GermanyHD">DAZN 1 HD</channel>
-  <channel site="sky.de" site_id="900" lang="de" xmltv_id="DAZN2.uk@GermanyHD">DAZN 2 HD</channel>
+  <channel site="sky.com" site_id="DE#132" lang="de" xmltv_id="DAZN1.uk@GermanyHD">DAZN 1 HD</channel>
+  <channel site="sky.com" site_id="DE#122" lang="de" xmltv_id="DAZN2.uk@GermanyHD">DAZN 2 HD</channel>
   <channel site="movistarplus.es" site_id="M1SD" lang="es" xmltv_id="">DAZN 1</channel>
   <channel site="movistarplus.es" site_id="M2SD" lang="es" xmltv_id="">DAZN 2</channel>
   <channel site="movistarplus.es" site_id="MVF1" lang="es" xmltv_id="">DAZN F1</channel>
